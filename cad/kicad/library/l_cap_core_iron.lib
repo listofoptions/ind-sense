@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# L_Cap_Core_Iron
+#
+DEF L_Cap_Core_Iron L 0 10 N N 1 F N
+F0 "L" 50 50 50 H V L CNN
+F1 "L_Cap_Core_Iron" 50 -50 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+S -40 -50 -200 50 0 1 0 f
+P 2 0 1 0 -170 20 -70 20 N
+P 2 0 1 0 -120 -70 -120 -40 N
+P 2 0 1 0 -120 -40 -120 -20 N
+P 2 0 1 0 -120 -20 -170 -20 N
+P 2 0 1 0 -120 -20 -70 -20 N
+P 2 0 1 0 -120 50 -120 20 N
+P 2 0 1 0 30 80 30 -80 N
+P 2 0 1 0 40 -80 40 80 N
+P 4 0 1 0 -120 -70 -120 -80 -50 -80 0 -80 N
+P 4 0 1 0 -120 50 -120 80 -50 80 0 80 N
+X ~ 1 -50 -100 20 U 50 50 1 1 P
+X ~ 2 -50 100 20 D 50 50 1 1 P
+X ~ 3 -220 0 20 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

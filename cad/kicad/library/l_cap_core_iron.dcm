@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L_Cap_Core_Iron
+D Inductor with iron core, small symbol
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+#End Doc Library

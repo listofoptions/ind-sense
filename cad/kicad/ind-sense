@@ -1,0 +1,47 @@
+Source:	C:\Users\jamahoney\Dropbox\projects\custom keyboard\cad\kicad\ind-sense.sch
+Date:	05/24/2018 13:44:08
+Tool:	Eeschema 4.0.7
+Component Count:	138
+Ref	Value	Part	Footprint	Description	Vendor
+C1	4n5	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C2	100u	device:C_Small	Capacitors_SMD:C_1812_HandSoldering	Unpolarized capacitor	
+C3	1u	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C4	1u	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C5	1u	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C6	100n	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C7	470p	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C8	2u2	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C9	1u	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C10	1u	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C13	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C14	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C15	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C16	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C17	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C18	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C19	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C20	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C21	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+C22	0u1	device:C_Small	Capacitors_SMD:C_0603	Unpolarized capacitor	
+J1	Conn_01x27	conn:Conn_01x27		Generic connector, single row, 01x27	
+J2	Conn_01x27	conn:Conn_01x27		Generic connector, single row, 01x27	
+J3	USB_OTG	conn:USB_OTG	Connectors:USB_Mini-B	USB mini/micro connector		
+R1	330	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R2	22	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R3	22	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R4	20k	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R5	20k	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R6	4k7	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R7	10k	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+R8	1M	device:R_Small	Resistors_SMD:R_0603	Resistor, small symbol	
+RN1	132	device:R_Pack04	Resistors_SMD:R_Array_Convex_4x0603	4 Resistor network, parallel topology, DIP package	
+RN2	132	device:R_Pack04	Resistors_SMD:R_Array_Convex_4x0603	4 Resistor network, parallel topology, DIP package	
+RN3	66k	device:R_Pack04	Resistors_SMD:R_Array_Convex_4x0402	4 Resistor network, parallel topology, DIP package	
+RN4	66k	device:R_Pack04	Resistors_SMD:R_Array_Convex_4x0402	4 Resistor network, parallel topology, DIP package	
+SW1	SW_Push	switches:SW_Push		Push button switch, generic, two pins	
+U1	ATSAMDA1E14B	atsamda1e14b:ATSAMDA1E1B			
+U2	TPIC6B595	texas:TPIC6595	Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm		
+U3	TPIC6B595	texas:TPIC6595	Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm		
+U4	MIC5219-3.3	regul:MIC5219-3.3	TO_SOT_Packages_SMD:SOT-23-5	300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package	
+U5	CMP04	linear:LM339	Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm	Quad Differential Comparators, DIP-14/SOIC-14/SSOP-14	
+U6	CMP04	linear:LM339	Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm	Quad Differential Comparators, DIP-14/SOIC-14/SSOP-14	
