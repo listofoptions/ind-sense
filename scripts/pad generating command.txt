@@ -1,0 +1,11 @@
+python kicad_scripts-master\rfid_calculator\cmdline.py ^
+--width=10 ^
+--height=10 ^
+--turns=15 ^
+--separation=0.1524 ^
+--trace_width=0.1524 ^
+--weight=1 ^
+--mm ^
+--ellipse ^
+--vertices_per_turn=50 ^
+--kicad_mod=pad.kicad_mod

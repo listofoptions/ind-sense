@@ -1,0 +1,35 @@
+geometric contraining equation for the number of turns usable by a given
+inductor
+n_g = floor(((d_out - 1/2*w) - (d_in + 1/2*w))/(2*(w + s)))
+
+input offset voltage of the cmp04 is 1mv, this limits the minimum voltage 
+differential for the inductor
+
+current draw of each of the components used:
+ATmega32u2:  0.050 mA
+cmp04:       0.012 A
+TPIC6B595:   0.050 A
+mcp4821:     0.050 A
+8x100k(ohm): 0.00005 A
+---------------------
+          = 0.163 A
+fudge:    + 0.062 A
+---------------------
+          = 0.225 A
+---------------------
+max:      - 0.475 A
+---------------------
+          = 0.200 A  : free current for use in the keyswitch matrix
+          
+to limit current:
+    5/0.025 = 200 Ohms
+    0.025*8 = 200 mA
+
+this means that a total of 25mA is available to each inductor
+in simulation (with perfect components) to achive a net voltage differential of
+at least 2mV a 4kHz frequency is needed, given a large enough induction upon.
+switch closure. a custom firmware or another controller is needed
+
+
+    
+    
