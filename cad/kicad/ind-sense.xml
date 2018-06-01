@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\jamahoney\Dropbox\projects\custom keyboard\cad\kicad\ind-sense.sch</source>
-    <date>05/24/2018 13:44:08</date>
+    <source>C:/Users/jamahoney/Dropbox/projects/ind-sense/cad/kicad/ind-sense.sch</source>
+    <date>05/31/2018 12:36:53</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -34,28 +34,21 @@
   <components>
     <comp ref="R6">
       <value>4k7</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE54898</tstamp>
     </comp>
     <comp ref="R4">
       <value>20k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE54CED</tstamp>
     </comp>
-    <comp ref="C19">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE604E8</tstamp>
-    </comp>
     <comp ref="C18">
       <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE60A99</tstamp>
@@ -67,61 +60,12 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE64384</tstamp>
     </comp>
-    <comp ref="C14">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE64390</tstamp>
-    </comp>
     <comp ref="C13">
       <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE6439E</tstamp>
-    </comp>
-    <comp ref="C15">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE643DB</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE6A598</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE6A81A</tstamp>
-    </comp>
-    <comp ref="C20">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE6AA21</tstamp>
-    </comp>
-    <comp ref="C21">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE6AA56</tstamp>
-    </comp>
-    <comp ref="C22">
-      <value>0u1</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AE6AA8B</tstamp>
     </comp>
     <comp ref="U6">
       <value>CMP04</value>
@@ -130,44 +74,23 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE6AD92</tstamp>
     </comp>
-    <comp ref="C10">
-      <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF916C1</tstamp>
-    </comp>
     <comp ref="C2">
       <value>100u</value>
-      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B005264</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>TPIC6B595</value>
-      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
-      <libsource lib="texas" part="TPIC6595"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B00B20D</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>TPIC6B595</value>
-      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
-      <libsource lib="texas" part="TPIC6595"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B00B7EF</tstamp>
-    </comp>
     <comp ref="C9">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B0127E2</tstamp>
     </comp>
     <comp ref="R5">
       <value>20k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B08981C</tstamp>
@@ -187,920 +110,339 @@
       <tstamp>5B0D1271</tstamp>
     </comp>
     <comp ref="RN1">
-      <value>132</value>
+      <value>330</value>
       <footprint>Resistors_SMD:R_Array_Convex_4x0603</footprint>
       <libsource lib="device" part="R_Pack04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B0D4E7D</tstamp>
     </comp>
     <comp ref="RN2">
-      <value>132</value>
+      <value>330</value>
       <footprint>Resistors_SMD:R_Array_Convex_4x0603</footprint>
       <libsource lib="device" part="R_Pack04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B0D513D</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>USB_OTG</value>
-      <footprint>Connectors:USB_Mini-B</footprint>
-      <libsource lib="conn" part="USB_OTG"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B09321D</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>22</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B093223</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>22</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B093229</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>4n5</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B09322F</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>1M</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0A55F2</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>MIC5219-3.3</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
-      <libsource lib="regul" part="MIC5219-3.3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0A5E58</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>470p</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0A74F8</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>2u2</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0A765C</tstamp>
-    </comp>
     <comp ref="J1">
       <value>Conn_01x27</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x27_Pitch2.54mm</footprint>
       <libsource lib="conn" part="Conn_01x27"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B0B33BE</tstamp>
     </comp>
     <comp ref="J2">
       <value>Conn_01x27</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x27_Pitch2.54mm</footprint>
       <libsource lib="conn" part="Conn_01x27"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B0B34DE</tstamp>
     </comp>
     <comp ref="U1">
-      <value>ATSAMDA1E14B</value>
-      <libsource lib="atsamda1e14b" part="ATSAMDA1E1B"/>
+      <value>74HC154</value>
+      <footprint>Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm</footprint>
+      <libsource lib="74xx" part="74LS154"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0B8034</tstamp>
+      <tstamp>5B09D2BC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP4821</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <libsource lib="adc-dac" part="MCP4821"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0A2B84</tstamp>
     </comp>
     <comp ref="C4">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0C9C1D</tstamp>
+      <tstamp>5B0AC8B9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0ADBD9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u-T</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Hand</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0ADCDB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x18</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x18_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0E988E</tstamp>
     </comp>
     <comp ref="C5">
       <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0D6CBE</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>1u</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0D8FD0</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0DB0B2</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_Push</value>
-      <libsource lib="switches" part="SW_Push"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0DB274</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0DBA28</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>330</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B0DBC92</tstamp>
+      <tstamp>5B124D56</tstamp>
     </comp>
     <comp ref="L1">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29A0</tstamp>
+      <tstamp>5B0CE415</tstamp>
     </comp>
     <comp ref="L5">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29A7</tstamp>
+      <tstamp>5B0CE471</tstamp>
     </comp>
     <comp ref="L9">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29AE</tstamp>
+      <tstamp>5B0CE8CF</tstamp>
     </comp>
     <comp ref="L13">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29B5</tstamp>
-    </comp>
-    <comp ref="L17">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29BC</tstamp>
-    </comp>
-    <comp ref="L21">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29C3</tstamp>
-    </comp>
-    <comp ref="L25">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29CA</tstamp>
-    </comp>
-    <comp ref="L29">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29D1</tstamp>
-    </comp>
-    <comp ref="L33">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29D8</tstamp>
-    </comp>
-    <comp ref="L37">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29DF</tstamp>
-    </comp>
-    <comp ref="L41">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29E6</tstamp>
-    </comp>
-    <comp ref="L45">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF29ED</tstamp>
+      <tstamp>5B0CE8D5</tstamp>
     </comp>
     <comp ref="L2">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A51</tstamp>
+      <tstamp>5B0CF652</tstamp>
     </comp>
     <comp ref="L6">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A58</tstamp>
+      <tstamp>5B0CF658</tstamp>
     </comp>
     <comp ref="L10">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A5F</tstamp>
+      <tstamp>5B0CF65E</tstamp>
     </comp>
     <comp ref="L14">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A66</tstamp>
-    </comp>
-    <comp ref="L18">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A6D</tstamp>
-    </comp>
-    <comp ref="L22">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A74</tstamp>
-    </comp>
-    <comp ref="L26">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A7B</tstamp>
-    </comp>
-    <comp ref="L30">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A82</tstamp>
-    </comp>
-    <comp ref="L34">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A89</tstamp>
-    </comp>
-    <comp ref="L38">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A90</tstamp>
-    </comp>
-    <comp ref="L42">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A97</tstamp>
-    </comp>
-    <comp ref="L46">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2A9E</tstamp>
+      <tstamp>5B0CF664</tstamp>
     </comp>
     <comp ref="L3">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B02</tstamp>
+      <tstamp>5B0CF859</tstamp>
     </comp>
     <comp ref="L7">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B09</tstamp>
+      <tstamp>5B0CF85F</tstamp>
     </comp>
     <comp ref="L11">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B10</tstamp>
+      <tstamp>5B0CF865</tstamp>
     </comp>
     <comp ref="L15">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B17</tstamp>
-    </comp>
-    <comp ref="L19">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B1E</tstamp>
-    </comp>
-    <comp ref="L23">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B25</tstamp>
-    </comp>
-    <comp ref="L27">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B2C</tstamp>
-    </comp>
-    <comp ref="L31">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B33</tstamp>
-    </comp>
-    <comp ref="L35">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B3A</tstamp>
-    </comp>
-    <comp ref="L39">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B41</tstamp>
-    </comp>
-    <comp ref="L43">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B48</tstamp>
-    </comp>
-    <comp ref="L47">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2B4F</tstamp>
+      <tstamp>5B0CF86B</tstamp>
     </comp>
     <comp ref="L4">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BB3</tstamp>
+      <tstamp>5B0CF890</tstamp>
     </comp>
     <comp ref="L8">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BBA</tstamp>
+      <tstamp>5B0CF896</tstamp>
     </comp>
     <comp ref="L12">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BC1</tstamp>
+      <tstamp>5B0CF89C</tstamp>
     </comp>
     <comp ref="L16">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BC8</tstamp>
+      <tstamp>5B0CF8A2</tstamp>
+    </comp>
+    <comp ref="L17">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D02E9</tstamp>
+    </comp>
+    <comp ref="L21">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D02EF</tstamp>
+    </comp>
+    <comp ref="L25">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D02F5</tstamp>
+    </comp>
+    <comp ref="L29">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D02FB</tstamp>
+    </comp>
+    <comp ref="L18">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D0320</tstamp>
+    </comp>
+    <comp ref="L22">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D0326</tstamp>
+    </comp>
+    <comp ref="L26">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D032C</tstamp>
+    </comp>
+    <comp ref="L30">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D0332</tstamp>
+    </comp>
+    <comp ref="L19">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D0357</tstamp>
+    </comp>
+    <comp ref="L23">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D035D</tstamp>
+    </comp>
+    <comp ref="L27">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D0363</tstamp>
+    </comp>
+    <comp ref="L31">
+      <value>~</value>
+      <footprint>library:pad</footprint>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
+      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
+      <tstamp>5B0D0369</tstamp>
     </comp>
     <comp ref="L20">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BCF</tstamp>
+      <tstamp>5B0D038E</tstamp>
     </comp>
     <comp ref="L24">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BD6</tstamp>
+      <tstamp>5B0D0394</tstamp>
     </comp>
     <comp ref="L28">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BDD</tstamp>
+      <tstamp>5B0D039A</tstamp>
     </comp>
     <comp ref="L32">
-      <value>L</value>
+      <value>~</value>
       <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
+      <libsource lib="l_cap_core_iron" part="L_Cap_Core_Iron"/>
       <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BE4</tstamp>
-    </comp>
-    <comp ref="L36">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BEB</tstamp>
-    </comp>
-    <comp ref="L40">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BF2</tstamp>
-    </comp>
-    <comp ref="L44">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2BF9</tstamp>
-    </comp>
-    <comp ref="L48">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C00</tstamp>
-    </comp>
-    <comp ref="L49">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C64</tstamp>
-    </comp>
-    <comp ref="L53">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C6B</tstamp>
-    </comp>
-    <comp ref="L57">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C72</tstamp>
-    </comp>
-    <comp ref="L61">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C79</tstamp>
-    </comp>
-    <comp ref="L65">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C80</tstamp>
-    </comp>
-    <comp ref="L69">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C87</tstamp>
-    </comp>
-    <comp ref="L73">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C8E</tstamp>
-    </comp>
-    <comp ref="L77">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C95</tstamp>
-    </comp>
-    <comp ref="L81">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2C9C</tstamp>
-    </comp>
-    <comp ref="L85">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2CA3</tstamp>
-    </comp>
-    <comp ref="L89">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2CAA</tstamp>
-    </comp>
-    <comp ref="L93">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2CB1</tstamp>
-    </comp>
-    <comp ref="L50">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D15</tstamp>
-    </comp>
-    <comp ref="L54">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D1C</tstamp>
-    </comp>
-    <comp ref="L58">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D23</tstamp>
-    </comp>
-    <comp ref="L62">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D2A</tstamp>
-    </comp>
-    <comp ref="L66">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D31</tstamp>
-    </comp>
-    <comp ref="L70">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D38</tstamp>
-    </comp>
-    <comp ref="L74">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D3F</tstamp>
-    </comp>
-    <comp ref="L78">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D46</tstamp>
-    </comp>
-    <comp ref="L82">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D4D</tstamp>
-    </comp>
-    <comp ref="L86">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D54</tstamp>
-    </comp>
-    <comp ref="L90">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D5B</tstamp>
-    </comp>
-    <comp ref="L94">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2D62</tstamp>
-    </comp>
-    <comp ref="L51">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DC6</tstamp>
-    </comp>
-    <comp ref="L55">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DCD</tstamp>
-    </comp>
-    <comp ref="L59">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DD4</tstamp>
-    </comp>
-    <comp ref="L63">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DDB</tstamp>
-    </comp>
-    <comp ref="L67">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DE2</tstamp>
-    </comp>
-    <comp ref="L71">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DE9</tstamp>
-    </comp>
-    <comp ref="L75">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DF0</tstamp>
-    </comp>
-    <comp ref="L79">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DF7</tstamp>
-    </comp>
-    <comp ref="L83">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2DFE</tstamp>
-    </comp>
-    <comp ref="L87">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E05</tstamp>
-    </comp>
-    <comp ref="L91">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E0C</tstamp>
-    </comp>
-    <comp ref="L95">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E13</tstamp>
-    </comp>
-    <comp ref="L52">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E77</tstamp>
-    </comp>
-    <comp ref="L56">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E7E</tstamp>
-    </comp>
-    <comp ref="L60">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E85</tstamp>
-    </comp>
-    <comp ref="L64">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E8C</tstamp>
-    </comp>
-    <comp ref="L68">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E93</tstamp>
-    </comp>
-    <comp ref="L72">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2E9A</tstamp>
-    </comp>
-    <comp ref="L76">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2EA1</tstamp>
-    </comp>
-    <comp ref="L80">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2EA8</tstamp>
-    </comp>
-    <comp ref="L84">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2EAF</tstamp>
-    </comp>
-    <comp ref="L88">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2EB6</tstamp>
-    </comp>
-    <comp ref="L92">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2EBD</tstamp>
-    </comp>
-    <comp ref="L96">
-      <value>L</value>
-      <footprint>library:pad</footprint>
-      <libsource lib="device" part="L_Core_Iron_Small"/>
-      <sheetpath names="/matrix/" tstamps="/5AFF31CA/"/>
-      <tstamp>5AFF2EC4</tstamp>
+      <tstamp>5B0D03A0</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="regul" part="AP131-15">
-      <aliases>
-        <alias>AP131-18</alias>
-        <alias>AP131-20</alias>
-        <alias>AP131-25</alias>
-        <alias>AP131-28</alias>
-        <alias>AP131-29</alias>
-        <alias>AP131-30</alias>
-        <alias>AP131-33</alias>
-        <alias>AP131-35</alias>
-        <alias>MIC5219-3.3</alias>
-        <alias>MIC5219-2.5</alias>
-        <alias>MIC5219-2.6</alias>
-        <alias>MIC5219-2.7</alias>
-        <alias>MIC5219-2.8</alias>
-        <alias>MIC5219-2.9</alias>
-        <alias>MIC5219-3.1</alias>
-        <alias>MIC5219-3.0</alias>
-        <alias>MIC5219-3.6</alias>
-        <alias>MIC5219-5.0</alias>
-        <alias>MIC5205-2.5</alias>
-        <alias>MIC5205-2.7</alias>
-        <alias>MIC5205-2.8</alias>
-        <alias>MIC5205-2.85</alias>
-        <alias>MIC5205-2.9</alias>
-        <alias>MIC5205-3.0</alias>
-        <alias>MIC5205-3.1</alias>
-        <alias>MIC5205-3.2</alias>
-        <alias>MIC5205-3.3</alias>
-        <alias>MIC5205-3.6</alias>
-        <alias>MIC5205-3.8</alias>
-        <alias>MIC5205-4.0</alias>
-        <alias>MIC5205-5.0</alias>
-        <alias>SPX3819M5-L-1-2</alias>
-        <alias>SPX3819M5-L-1-5</alias>
-        <alias>SPX3819M5-L-1-8</alias>
-        <alias>SPX3819M5-L-2-5</alias>
-        <alias>SPX3819M5-L-3-0</alias>
-        <alias>SPX3819M5-L-3-3</alias>
-        <alias>SPX3819M5-L-5-0</alias>
-      </aliases>
-      <description>300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package</description>
-      <docs>http://www.diodes.com/_files/datasheets/AP131.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
+    <libpart lib="74xx" part="74LS154">
+      <description>Decoder 4 to 16</description>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">AP131-15</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+        <field name="Value">74LS154</field>
       </fields>
       <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="BP" type="input"/>
-        <pin num="5" name="OUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="atsamda1e14b" part="ATSAMDA1E1B">
-      <footprints>
-        <fp>tqfp-32</fp>
-        <fp>tqfp32</fp>
-        <fp>tqfp_32</fp>
-        <fp>qfn-32</fp>
-        <fp>qfn32</fp>
-        <fp>qfn_32</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ATSAMDA1E1B</field>
-      </fields>
-      <pins>
-        <pin num="1" name="PA00/VDDANA/EXTINT[0]/SERCOM1/PAD[0]/TCC2/WO[0]" type="BiDi"/>
-        <pin num="2" name="PA01/VDDANA/EXTINT[1]/SERCOM1/PAD[1]/TCC2/WO[1]" type="BiDi"/>
-        <pin num="3" name="PA02/VDDANA/EXTINT[2]/AIN[0]/Y[0]/VOUT" type="BiDi"/>
-        <pin num="4" name="PA03/VDDANA/EXTINT[3]/ADC-VREFA/DAC-VREFA/AIN[1]/Y[1]" type="BiDi"/>
-        <pin num="5" name="PA04/VDDANA/EXTINT[4]/ADC-VREFB/AIN[4]/AIN[0]/Y[2]/SERCOM0/PAD[0]/TCC0/WO[0]" type="BiDi"/>
-        <pin num="6" name="PA05/VDDANA/EXTINT[5]/AIN[5]/AIN[1]/Y[3]/SERCOM0/PAD[1]/TCC0/WO[1]" type="BiDi"/>
-        <pin num="7" name="PA06/VDDANA/EXTINT[6]/AIN[6]/AIN[2]/Y[4]/SERCOM0/PAD[2]/TCC1/WO[0]" type="BiDi"/>
-        <pin num="8" name="PA07/VDDANA/EXTINT[7]/AIN[7]/AIN[3]/Y[5]/SERCOM0/PAD[3]TCC1/WO[1]/I2S/SD[0]" type="BiDi"/>
-        <pin num="9" name="VDDANA" type="power_in"/>
-        <pin num="10" name="GND" type="passive"/>
-        <pin num="11" name="PA08/VDDIO/NMI/AIN[16]/X[0]/SERCOM0/PAD[0]/SERCOM2/PAD[0]/TCC0/WO[0]/TCC1/WO[2]/I2S/SD[1]" type="BiDi"/>
-        <pin num="12" name="PA09/VDDIO/EXTINT[9]/AIN[17]/X[1]/SERCOM0/PAD[1]/SERCOM2/PAD[1]/TCC0/WO[1]/TCC1/WO[3]/I2S/MCK[0]" type="BiDi"/>
-        <pin num="13" name="PA10/VDDIO/EXTINT[10]/AIN[18]/X[2]/SERCOM0/PAD[2]/SERCOM2/PAD[2]/TCC1/WO[0]/TCC0/WO[2]/I2S/SCK[0]/GCLK_IO[4]" type="BiDi"/>
-        <pin num="14" name="PA11/VDDIO/EXTINT[11]/AIN[19]/X[3]/SERCOM0/PAD[3]/SERCOM2/PAD[3]/TCC1/WO[1]/TCC0/WO[3]/I2S/FS[0]/GCLK_IO[5]" type="BiDi"/>
-        <pin num="15" name="PA14/VDDIO/EXTINT[14]/SERCOM2/PAD[2]/SERCOM4/PAD[2]/TC3/WO[0]/TCC0/WO[4]/GCLK_IO[0]" type="BiDi"/>
-        <pin num="16" name="PA15/VDDIO/EXTINT[15]/SERCOM2/PAD[3]/SERCOM4/PAD[3]/TC3/WO[1]/TCC0/WO[5]/GCLK_IO[1]" type="BiDi"/>
-        <pin num="17" name="PA16/VDDIO/EXTINT[0]/X[4]/SERCOM1/PAD[0]/SERCOM3/PAD[0]/TCC2/WO[0]/TCC0/WO[6]/GCLK_IO[2]" type="BiDi"/>
-        <pin num="18" name="PA17/VDDIO/EXTINT[1]/X[5]/SERCOM1/PAD[1]/SERCOM3/PAD[1]/TCC2/WO[1]/TCC0/WO[7]/GCLK_IO[3]" type="BiDi"/>
-        <pin num="19" name="PA18/VDDIO/EXTINT[2]/X[6]/SERCOM1/PAD[2]/SERCOM3/PAD[2]/TC3/WO[0]/TCC0/WO[2]/AC/CMP[0]" type="BiDi"/>
-        <pin num="20" name="PA19/VDDIO/EXTINT[3]/X[7]/SERCOM1/PAD[3]/SERCOM3/PAD[3]/TC3/WO[1]/TCC0/WO[3]/I2S/SD[0]/AC/CMP[1]" type="BiDi"/>
-        <pin num="21" name="PA22/VDDIO/EXTINT[6]/X[10]/SERCOM3/PAD[0]/SERCOM5/PAD[0]/TC4/WO[0]/TCC0/WO[4]/GCLK_IO[6]" type="BiDi"/>
-        <pin num="22" name="PA23/VDDIO/EXTINT[7]/X[11]/SERCOM3/PAD[1]/SERCOM5/PAD[1]/TC4/WO[1]/TCC0/WO[5]/USB/SOF/1kHz/GCLK_IO[7]" type="BiDi"/>
-        <pin num="23" name="PA24/VDDIO/EXTINT[12]/SERCOM3/PAD[2]/SERCOM5/PAD[2]/TC5/WO[0]/TCC1/WO[2]/USB/DM" type="BiDi"/>
-        <pin num="24" name="PA25/VDDIO/EXTINT[13]/SERCOM3/PAD[3]/SERCOM5/PAD[3]/TC5/WO[1]/TCC1/WO[3]/USB/DP" type="BiDi"/>
-        <pin num="25" name="PA27/VDDIO/EXTINT[15]/GCLK_IO[0]" type="BiDi"/>
-        <pin num="26" name="~RESET" type="input"/>
-        <pin num="27" name="PA28/VDDIO/EXTINT[8]/GCLK_IO[0]" type="BiDi"/>
-        <pin num="28" name="GND" type="passive"/>
-        <pin num="29" name="VDDCORE" type="power_out"/>
-        <pin num="30" name="VDDIN" type="power_in"/>
-        <pin num="31" name="PA30/VDDIO/EXTINT[10]/SERCOM1/PAD[2]/TCC1/WO[0]/SWCLK/GCLK_IO[0]" type="BiDi"/>
-        <pin num="32" name="PA31/VDDIO/EXTINT[11]/SERCOM1/PAD[3]/TCC1/WO[1]/SWDIO" type="BiDi"/>
+        <pin num="1" name="S0" type="output"/>
+        <pin num="2" name="S1" type="output"/>
+        <pin num="3" name="S2" type="output"/>
+        <pin num="4" name="S3" type="output"/>
+        <pin num="5" name="S4" type="output"/>
+        <pin num="6" name="S5" type="output"/>
+        <pin num="7" name="S6" type="output"/>
+        <pin num="8" name="S7" type="output"/>
+        <pin num="9" name="S8" type="output"/>
+        <pin num="10" name="S9" type="output"/>
+        <pin num="11" name="S10" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="S11" type="output"/>
+        <pin num="14" name="S12" type="output"/>
+        <pin num="15" name="S13" type="input"/>
+        <pin num="16" name="S14" type="output"/>
+        <pin num="17" name="S15" type="output"/>
+        <pin num="18" name="E0" type="input"/>
+        <pin num="19" name="E1" type="input"/>
+        <pin num="20" name="A3" type="input"/>
+        <pin num="21" name="A2" type="input"/>
+        <pin num="22" name="A1" type="input"/>
+        <pin num="23" name="A0" type="input"/>
+        <pin num="24" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="device" part="C_Small">
@@ -1115,6 +457,42 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x18">
+      <description>Generic connector, single row, 01x18</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="Conn_01x27">
@@ -1196,7 +574,7 @@
         <pin num="14" name="~" type="openCol"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="L_Core_Iron_Small">
+    <libpart lib="l_cap_core_iron" part="L_Cap_Core_Iron">
       <description>Inductor with iron core, small symbol</description>
       <footprints>
         <fp>Choke_*</fp>
@@ -1206,11 +584,38 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L_Core_Iron_Small</field>
+        <field name="Value">L_Cap_Core_Iron</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="adc-dac" part="MCP4801">
+      <aliases>
+        <alias>MCP4811</alias>
+        <alias>MCP4821</alias>
+      </aliases>
+      <description>8-Bit D/A Converters with SPI Interface, internal Reference (2.048V)</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22244B.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4801</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="~CS" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="~LDAC" type="input"/>
+        <pin num="6" name="~SHDN" type="input"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="Vout" type="output"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R_Pack04">
@@ -1248,71 +653,10 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="switches" part="SW_Push">
-      <description>Push button switch, generic, two pins</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_Push</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="texas" part="TPIC6595">
-      <footprints>
-        <fp>SOIC*7.5x12.8mm*Pitch1.27mm*</fp>
-        <fp>DIP*W7.62mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPIC6595</field>
-      </fields>
-      <pins>
-        <pin num="1" name="PGND" type="NotConnected"/>
-        <pin num="2" name="VCC" type="power_in"/>
-        <pin num="3" name="SER_IN" type="input"/>
-        <pin num="4" name="DRAIN0" type="openCol"/>
-        <pin num="5" name="DRAIN1" type="openCol"/>
-        <pin num="6" name="DRAIN2" type="openCol"/>
-        <pin num="7" name="DRAIN3" type="openCol"/>
-        <pin num="8" name="~SRCLR" type="input"/>
-        <pin num="9" name="~G" type="input"/>
-        <pin num="10" name="PGND" type="passive"/>
-        <pin num="11" name="PGND" type="passive"/>
-        <pin num="12" name="RCLK" type="input"/>
-        <pin num="13" name="SRCK" type="input"/>
-        <pin num="14" name="DRAIN4" type="openCol"/>
-        <pin num="15" name="DRAIN5" type="openCol"/>
-        <pin num="16" name="DRAIN6" type="openCol"/>
-        <pin num="17" name="DRAIN7" type="openCol"/>
-        <pin num="18" name="SER_OUT" type="output"/>
-        <pin num="19" name="PGND" type="power_in"/>
-        <pin num="20" name="PGND" type="NotConnected"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="USB_OTG">
-      <description>USB mini/micro connector</description>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_OTG</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="ID" type="passive"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="Shield" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="regul">
-      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
@@ -1320,648 +664,384 @@
     <library logical="linear">
       <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
     </library>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library\74xx.lib</uri>
     </library>
-    <library logical="switches">
-      <uri>C:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
+    <library logical="adc-dac">
+      <uri>C:\Program Files\KiCad\share\kicad\library\adc-dac.lib</uri>
     </library>
-    <library logical="atsamda1e14b">
-      <uri>C:\Users\jamahoney\Dropbox\projects\custom keyboard\cad\kicad\library\atsamda1e14b.lib</uri>
-    </library>
-    <library logical="texas">
-      <uri>C:\Users\jamahoney\Dropbox\projects\custom keyboard\cad\kicad\texas.lib</uri>
+    <library logical="l_cap_core_iron">
+      <uri>C:\Users\jamahoney\Dropbox\projects\ind-sense\cad\kicad\library\l_cap_core_iron.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="M1">
-      <node ref="RN1" pin="1"/>
-      <node ref="U5" pin="5"/>
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="2" name="Net-(C22-Pad2)">
-      <node ref="C22" pin="2"/>
-    </net>
-    <net code="3" name="/matrix/MCN8">
-      <node ref="L77" pin="1"/>
-      <node ref="L29" pin="1"/>
-      <node ref="L31" pin="1"/>
-      <node ref="L80" pin="1"/>
-      <node ref="L32" pin="1"/>
-      <node ref="L79" pin="1"/>
-      <node ref="L30" pin="1"/>
-      <node ref="J2" pin="20"/>
-      <node ref="L78" pin="1"/>
-    </net>
-    <net code="4" name="/matrix/MRP5">
-      <node ref="L89" pin="2"/>
-      <node ref="L53" pin="2"/>
-      <node ref="L49" pin="2"/>
-      <node ref="L81" pin="2"/>
-      <node ref="L93" pin="2"/>
-      <node ref="L85" pin="2"/>
-      <node ref="L57" pin="2"/>
-      <node ref="L61" pin="2"/>
-      <node ref="L65" pin="2"/>
-      <node ref="L69" pin="2"/>
-      <node ref="L73" pin="2"/>
-      <node ref="L77" pin="2"/>
-      <node ref="J2" pin="7"/>
-    </net>
-    <net code="5" name="/matrix/MRP6">
-      <node ref="L62" pin="2"/>
-      <node ref="L58" pin="2"/>
-      <node ref="L54" pin="2"/>
-      <node ref="L50" pin="2"/>
-      <node ref="L82" pin="2"/>
-      <node ref="J2" pin="8"/>
-      <node ref="L66" pin="2"/>
-      <node ref="L86" pin="2"/>
-      <node ref="L90" pin="2"/>
-      <node ref="L70" pin="2"/>
-      <node ref="L74" pin="2"/>
-      <node ref="L94" pin="2"/>
-      <node ref="L78" pin="2"/>
-    </net>
-    <net code="6" name="/matrix/MRP7">
-      <node ref="L95" pin="2"/>
-      <node ref="L91" pin="2"/>
-      <node ref="L83" pin="2"/>
-      <node ref="L79" pin="2"/>
-      <node ref="L87" pin="2"/>
-      <node ref="L75" pin="2"/>
-      <node ref="L71" pin="2"/>
-      <node ref="L63" pin="2"/>
-      <node ref="L59" pin="2"/>
-      <node ref="L55" pin="2"/>
-      <node ref="L51" pin="2"/>
-      <node ref="L67" pin="2"/>
-      <node ref="J2" pin="9"/>
-    </net>
-    <net code="7" name="/matrix/MRP8">
-      <node ref="L76" pin="2"/>
-      <node ref="L64" pin="2"/>
-      <node ref="L84" pin="2"/>
-      <node ref="L80" pin="2"/>
-      <node ref="L72" pin="2"/>
-      <node ref="L60" pin="2"/>
-      <node ref="L56" pin="2"/>
-      <node ref="L52" pin="2"/>
-      <node ref="L68" pin="2"/>
-      <node ref="J2" pin="10"/>
-      <node ref="L96" pin="2"/>
-      <node ref="L92" pin="2"/>
-      <node ref="L88" pin="2"/>
-    </net>
-    <net code="8" name="/matrix/MCN1">
-      <node ref="L2" pin="1"/>
-      <node ref="J2" pin="13"/>
-      <node ref="L1" pin="1"/>
-      <node ref="L49" pin="1"/>
-      <node ref="L51" pin="1"/>
-      <node ref="L50" pin="1"/>
-      <node ref="L52" pin="1"/>
-      <node ref="L4" pin="1"/>
-      <node ref="L3" pin="1"/>
-    </net>
-    <net code="9" name="/matrix/MCN2">
-      <node ref="L55" pin="1"/>
-      <node ref="L7" pin="1"/>
-      <node ref="L54" pin="1"/>
-      <node ref="L6" pin="1"/>
-      <node ref="L53" pin="1"/>
-      <node ref="L5" pin="1"/>
-      <node ref="L56" pin="1"/>
-      <node ref="L8" pin="1"/>
-      <node ref="J2" pin="14"/>
-    </net>
-    <net code="10" name="/matrix/MCN3">
-      <node ref="J2" pin="15"/>
-      <node ref="L57" pin="1"/>
-      <node ref="L10" pin="1"/>
-      <node ref="L12" pin="1"/>
-      <node ref="L9" pin="1"/>
-      <node ref="L59" pin="1"/>
-      <node ref="L60" pin="1"/>
-      <node ref="L11" pin="1"/>
-      <node ref="L58" pin="1"/>
-    </net>
-    <net code="11" name="/matrix/MCN4">
-      <node ref="L61" pin="1"/>
-      <node ref="L64" pin="1"/>
-      <node ref="L14" pin="1"/>
-      <node ref="J2" pin="16"/>
-      <node ref="L16" pin="1"/>
-      <node ref="L63" pin="1"/>
-      <node ref="L15" pin="1"/>
-      <node ref="L13" pin="1"/>
-      <node ref="L62" pin="1"/>
-    </net>
-    <net code="12" name="/matrix/MCN5">
-      <node ref="L17" pin="1"/>
-      <node ref="J2" pin="17"/>
-      <node ref="L68" pin="1"/>
-      <node ref="L20" pin="1"/>
-      <node ref="L67" pin="1"/>
-      <node ref="L18" pin="1"/>
-      <node ref="L66" pin="1"/>
-      <node ref="L65" pin="1"/>
-      <node ref="L19" pin="1"/>
-    </net>
-    <net code="13" name="/matrix/MCN6">
-      <node ref="L23" pin="1"/>
-      <node ref="L72" pin="1"/>
-      <node ref="L22" pin="1"/>
-      <node ref="L71" pin="1"/>
-      <node ref="L70" pin="1"/>
-      <node ref="L21" pin="1"/>
-      <node ref="L69" pin="1"/>
-      <node ref="L24" pin="1"/>
-      <node ref="J2" pin="18"/>
-    </net>
-    <net code="14" name="/matrix/MCN7">
-      <node ref="L74" pin="1"/>
-      <node ref="L75" pin="1"/>
-      <node ref="L25" pin="1"/>
-      <node ref="L28" pin="1"/>
-      <node ref="L76" pin="1"/>
-      <node ref="L27" pin="1"/>
-      <node ref="J2" pin="19"/>
-      <node ref="L26" pin="1"/>
-      <node ref="L73" pin="1"/>
-    </net>
-    <net code="15" name="/matrix/MRP4">
-      <node ref="L24" pin="2"/>
-      <node ref="J2" pin="6"/>
-      <node ref="L20" pin="2"/>
-      <node ref="L16" pin="2"/>
-      <node ref="L12" pin="2"/>
-      <node ref="L8" pin="2"/>
-      <node ref="L4" pin="2"/>
-      <node ref="L28" pin="2"/>
-      <node ref="L32" pin="2"/>
-      <node ref="L40" pin="2"/>
-      <node ref="L36" pin="2"/>
-      <node ref="L48" pin="2"/>
-      <node ref="L44" pin="2"/>
-    </net>
-    <net code="16" name="/matrix/MCN9">
-      <node ref="L81" pin="1"/>
-      <node ref="L34" pin="1"/>
-      <node ref="L84" pin="1"/>
-      <node ref="L83" pin="1"/>
-      <node ref="L33" pin="1"/>
-      <node ref="L36" pin="1"/>
-      <node ref="L35" pin="1"/>
-      <node ref="J2" pin="21"/>
-      <node ref="L82" pin="1"/>
-    </net>
-    <net code="17" name="/matrix/MCN10">
-      <node ref="L37" pin="1"/>
-      <node ref="L85" pin="1"/>
-      <node ref="L88" pin="1"/>
-      <node ref="L39" pin="1"/>
-      <node ref="J2" pin="22"/>
-      <node ref="L87" pin="1"/>
-      <node ref="L40" pin="1"/>
-      <node ref="L86" pin="1"/>
-      <node ref="L38" pin="1"/>
-    </net>
-    <net code="18" name="/matrix/MCN11">
-      <node ref="L89" pin="1"/>
-      <node ref="L43" pin="1"/>
-      <node ref="L92" pin="1"/>
-      <node ref="L91" pin="1"/>
-      <node ref="L44" pin="1"/>
-      <node ref="L41" pin="1"/>
-      <node ref="J2" pin="23"/>
-      <node ref="L42" pin="1"/>
-      <node ref="L90" pin="1"/>
-    </net>
-    <net code="19" name="/matrix/MCN12">
-      <node ref="L46" pin="1"/>
-      <node ref="L48" pin="1"/>
-      <node ref="J2" pin="24"/>
-      <node ref="L47" pin="1"/>
-      <node ref="L45" pin="1"/>
-      <node ref="L96" pin="1"/>
-      <node ref="L95" pin="1"/>
-      <node ref="L93" pin="1"/>
-      <node ref="L94" pin="1"/>
-    </net>
-    <net code="20" name="CS10">
-      <node ref="U3" pin="5"/>
-      <node ref="J1" pin="22"/>
-    </net>
-    <net code="21" name="CS1">
-      <node ref="J1" pin="13"/>
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="22" name="CS2">
-      <node ref="J1" pin="14"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="23" name="CS3">
-      <node ref="J1" pin="15"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="24" name="CS4">
-      <node ref="U2" pin="7"/>
-      <node ref="J1" pin="16"/>
-    </net>
-    <net code="25" name="CS5">
-      <node ref="J1" pin="17"/>
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="26" name="CS6">
-      <node ref="J1" pin="18"/>
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="27" name="CS7">
-      <node ref="J1" pin="19"/>
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="28" name="CS8">
-      <node ref="U2" pin="17"/>
+    <net code="1" name="CS8">
+      <node ref="U1" pin="8"/>
       <node ref="J1" pin="20"/>
     </net>
-    <net code="29" name="CS9">
-      <node ref="U3" pin="4"/>
-      <node ref="J1" pin="21"/>
+    <net code="2" name="CS7">
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="19"/>
     </net>
-    <net code="30" name="CS11">
-      <node ref="U3" pin="6"/>
-      <node ref="J1" pin="23"/>
+    <net code="3" name="CS6">
+      <node ref="U1" pin="6"/>
+      <node ref="J1" pin="18"/>
     </net>
-    <net code="31" name="CS12">
-      <node ref="J1" pin="24"/>
-      <node ref="U3" pin="7"/>
+    <net code="4" name="CS5">
+      <node ref="J1" pin="17"/>
+      <node ref="U1" pin="5"/>
     </net>
-    <net code="32" name="/matrix/MRP1">
-      <node ref="J2" pin="3"/>
-      <node ref="L25" pin="2"/>
-      <node ref="L9" pin="2"/>
-      <node ref="L5" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="L33" pin="2"/>
-      <node ref="L45" pin="2"/>
-      <node ref="L41" pin="2"/>
-      <node ref="L37" pin="2"/>
-      <node ref="L21" pin="2"/>
-      <node ref="L17" pin="2"/>
-      <node ref="L13" pin="2"/>
-      <node ref="L29" pin="2"/>
+    <net code="5" name="CS4">
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="16"/>
     </net>
-    <net code="33" name="/matrix/MRP2">
-      <node ref="L30" pin="2"/>
-      <node ref="L38" pin="2"/>
-      <node ref="L42" pin="2"/>
-      <node ref="L46" pin="2"/>
-      <node ref="L34" pin="2"/>
-      <node ref="L2" pin="2"/>
-      <node ref="L6" pin="2"/>
-      <node ref="L10" pin="2"/>
-      <node ref="L14" pin="2"/>
-      <node ref="L18" pin="2"/>
-      <node ref="L22" pin="2"/>
-      <node ref="L26" pin="2"/>
+    <net code="6" name="CS3">
+      <node ref="J1" pin="15"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="7" name="CS2">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="8" name="CS1">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="9" name="/matrix/MRP7">
       <node ref="J2" pin="4"/>
+      <node ref="L27" pin="1"/>
+      <node ref="L23" pin="1"/>
+      <node ref="L19" pin="1"/>
+      <node ref="L31" pin="1"/>
     </net>
-    <net code="34" name="/matrix/MRP3">
-      <node ref="L7" pin="2"/>
-      <node ref="L3" pin="2"/>
-      <node ref="L35" pin="2"/>
-      <node ref="L47" pin="2"/>
-      <node ref="L43" pin="2"/>
-      <node ref="L39" pin="2"/>
-      <node ref="L15" pin="2"/>
-      <node ref="L19" pin="2"/>
-      <node ref="L23" pin="2"/>
-      <node ref="L27" pin="2"/>
-      <node ref="L31" pin="2"/>
-      <node ref="L11" pin="2"/>
+    <net code="10" name="/matrix/MRP1">
+      <node ref="L13" pin="1"/>
+      <node ref="L9" pin="1"/>
+      <node ref="L5" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="11" name="/matrix/MRP2">
+      <node ref="J2" pin="9"/>
+      <node ref="L14" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="L10" pin="1"/>
+    </net>
+    <net code="12" name="/matrix/MRP3">
+      <node ref="J2" pin="8"/>
+      <node ref="L3" pin="1"/>
+      <node ref="L15" pin="1"/>
+      <node ref="L11" pin="1"/>
+      <node ref="L7" pin="1"/>
+    </net>
+    <net code="13" name="/matrix/MRP4">
+      <node ref="J2" pin="7"/>
+      <node ref="L12" pin="1"/>
+      <node ref="L8" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="L16" pin="1"/>
+    </net>
+    <net code="14" name="/matrix/MRP5">
+      <node ref="L25" pin="1"/>
+      <node ref="L21" pin="1"/>
+      <node ref="L17" pin="1"/>
+      <node ref="L29" pin="1"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="15" name="/matrix/MRP6">
+      <node ref="L26" pin="1"/>
+      <node ref="L18" pin="1"/>
+      <node ref="L22" pin="1"/>
       <node ref="J2" pin="5"/>
+      <node ref="L30" pin="1"/>
     </net>
-    <net code="35" name="GND">
-      <node ref="C1" pin="2"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J1" pin="12"/>
-      <node ref="J1" pin="11"/>
-      <node ref="U5" pin="12"/>
-      <node ref="J1" pin="25"/>
+    <net code="16" name="/matrix/MRP8">
+      <node ref="L32" pin="1"/>
+      <node ref="L28" pin="1"/>
+      <node ref="L24" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="L20" pin="1"/>
+    </net>
+    <net code="17" name="GND">
       <node ref="C18" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="U2" pin="19"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U6" pin="12"/>
-      <node ref="R6" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U3" pin="11"/>
-      <node ref="U3" pin="10"/>
-      <node ref="C5" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U1" pin="10"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U1" pin="28"/>
-      <node ref="C15" pin="2"/>
       <node ref="J1" pin="27"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="J1" pin="26"/>
-      <node ref="U3" pin="19"/>
-      <node ref="C16" pin="2"/>
-      <node ref="U2" pin="11"/>
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="36" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="29"/>
-    </net>
-    <net code="37" name="Net-(U1-Pad19)">
       <node ref="U1" pin="19"/>
+      <node ref="J1" pin="26"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="18"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="12"/>
     </net>
-    <net code="38" name="S3">
-      <node ref="U5" pin="13"/>
-      <node ref="RN3" pin="3"/>
+    <net code="18" name="CS12">
+      <node ref="J1" pin="24"/>
       <node ref="U1" pin="13"/>
     </net>
-    <net code="39" name="+3V3">
-      <node ref="U3" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U3" pin="8"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C10" pin="1"/>
-      <node ref="U6" pin="3"/>
-      <node ref="R7" pin="2"/>
-      <node ref="U1" pin="30"/>
-      <node ref="U1" pin="9"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="RN3" pin="7"/>
-      <node ref="U5" pin="3"/>
-      <node ref="C8" pin="1"/>
-      <node ref="RN3" pin="5"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="R5" pin="1"/>
-      <node ref="RN4" pin="6"/>
-      <node ref="RN4" pin="5"/>
-      <node ref="RN4" pin="7"/>
-      <node ref="RN3" pin="8"/>
-      <node ref="RN3" pin="6"/>
-      <node ref="RN4" pin="8"/>
-      <node ref="C18" pin="1"/>
-    </net>
-    <net code="40" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="41" name="S1">
+    <net code="19" name="CS11">
+      <node ref="J1" pin="23"/>
       <node ref="U1" pin="11"/>
-      <node ref="RN3" pin="1"/>
-      <node ref="U5" pin="2"/>
     </net>
-    <net code="42" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
+    <net code="20" name="CS10">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="22"/>
     </net>
-    <net code="43" name="Net-(U1-Pad31)">
-      <node ref="U1" pin="31"/>
+    <net code="21" name="CS9">
+      <node ref="U1" pin="9"/>
+      <node ref="J1" pin="21"/>
     </net>
-    <net code="44" name="S2">
-      <node ref="RN3" pin="2"/>
-      <node ref="U1" pin="12"/>
-      <node ref="U5" pin="1"/>
+    <net code="22" name="/matrix/MCN12">
+      <node ref="L8" pin="2"/>
+      <node ref="J2" pin="24"/>
+      <node ref="L21" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="L22" pin="2"/>
+      <node ref="L23" pin="2"/>
+      <node ref="L24" pin="2"/>
+      <node ref="L6" pin="2"/>
     </net>
-    <net code="45" name="Net-(U1-Pad22)">
+    <net code="23" name="/matrix/MCN11">
+      <node ref="L26" pin="2"/>
+      <node ref="J2" pin="23"/>
+      <node ref="L28" pin="2"/>
+      <node ref="L11" pin="2"/>
+      <node ref="L25" pin="2"/>
+      <node ref="L27" pin="2"/>
+      <node ref="L12" pin="2"/>
+      <node ref="L9" pin="2"/>
+      <node ref="L10" pin="2"/>
+    </net>
+    <net code="24" name="/matrix/MCN10">
+      <node ref="L29" pin="2"/>
+      <node ref="L15" pin="2"/>
+      <node ref="L13" pin="2"/>
+      <node ref="L32" pin="2"/>
+      <node ref="L31" pin="2"/>
+      <node ref="L30" pin="2"/>
+      <node ref="L16" pin="2"/>
+      <node ref="L14" pin="2"/>
+      <node ref="J2" pin="22"/>
+    </net>
+    <net code="25" name="GNDA">
+      <node ref="U6" pin="12"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U5" pin="12"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="26" name="~STROBE">
+      <node ref="U1" pin="18"/>
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="27" name="SDI">
+      <node ref="J3" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="28" name="SEL1">
+      <node ref="U1" pin="23"/>
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="29" name="SEL2">
+      <node ref="J3" pin="14"/>
       <node ref="U1" pin="22"/>
     </net>
-    <net code="46" name="Net-(U1-Pad32)">
-      <node ref="U1" pin="32"/>
+    <net code="30" name="SEL3">
+      <node ref="U1" pin="21"/>
+      <node ref="J3" pin="15"/>
     </net>
-    <net code="47" name="Net-(R2-Pad2)">
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="23"/>
+    <net code="31" name="SEL4">
+      <node ref="U1" pin="20"/>
+      <node ref="J3" pin="16"/>
     </net>
-    <net code="48" name="S4">
-      <node ref="U1" pin="14"/>
-      <node ref="RN3" pin="4"/>
-      <node ref="U5" pin="14"/>
-    </net>
-    <net code="49" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="24"/>
-    </net>
-    <net code="50" name="Net-(U1-Pad25)">
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="51" name="Net-(R1-Pad1)">
-      <node ref="U1" pin="26"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="52" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="53" name="S8">
-      <node ref="RN4" pin="4"/>
-      <node ref="U6" pin="14"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="54" name="Net-(R4-Pad1)">
-      <node ref="U1" pin="3"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="55" name="SP">
-      <node ref="U5" pin="8"/>
-      <node ref="U6" pin="8"/>
-      <node ref="C19" pin="1"/>
-      <node ref="U5" pin="6"/>
-      <node ref="C16" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U5" pin="4"/>
-      <node ref="C17" pin="1"/>
-      <node ref="U5" pin="10"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="U6" pin="10"/>
-      <node ref="U6" pin="6"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="U6" pin="4"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C22" pin="1"/>
-    </net>
-    <net code="56" name="GNDREF">
-      <node ref="J2" pin="12"/>
-      <node ref="J2" pin="25"/>
-      <node ref="J2" pin="26"/>
-      <node ref="J2" pin="11"/>
-      <node ref="J2" pin="27"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="57" name="Net-(J3-Pad3)">
-      <node ref="R3" pin="1"/>
+    <net code="32" name="SCK">
+      <node ref="U2" pin="3"/>
       <node ref="J3" pin="3"/>
     </net>
-    <net code="58" name="Net-(J3-Pad2)">
-      <node ref="R2" pin="1"/>
+    <net code="33" name="~SS">
+      <node ref="U2" pin="2"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="59" name="Net-(C1-Pad1)">
-      <node ref="R8" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="J3" pin="6"/>
+    <net code="34" name="Net-(R4-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="60" name="VBUS">
-      <node ref="J3" pin="1"/>
-      <node ref="U4" pin="1"/>
-      <node ref="U4" pin="3"/>
+    <net code="35" name="/matrix/MCN13">
+      <node ref="L17" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="J2" pin="25"/>
+      <node ref="L19" pin="2"/>
+      <node ref="L20" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="L18" pin="2"/>
     </net>
-    <net code="61" name="Net-(C7-Pad1)">
-      <node ref="U4" pin="4"/>
-      <node ref="C7" pin="1"/>
+    <net code="36" name="GNDREF">
+      <node ref="J2" pin="14"/>
+      <node ref="J2" pin="13"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="19"/>
+      <node ref="J2" pin="18"/>
+      <node ref="J2" pin="16"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J2" pin="26"/>
+      <node ref="J2" pin="27"/>
+      <node ref="J2" pin="17"/>
+      <node ref="J2" pin="20"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J2" pin="12"/>
+      <node ref="J2" pin="21"/>
     </net>
-    <net code="62" name="S5">
-      <node ref="U1" pin="15"/>
-      <node ref="RN4" pin="1"/>
-      <node ref="U6" pin="2"/>
+    <net code="37" name="CS13">
+      <node ref="J1" pin="25"/>
+      <node ref="U1" pin="14"/>
     </net>
-    <net code="63" name="S6">
-      <node ref="RN4" pin="2"/>
-      <node ref="U6" pin="1"/>
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="64" name="S7">
-      <node ref="U1" pin="17"/>
-      <node ref="U6" pin="13"/>
-      <node ref="RN4" pin="3"/>
-    </net>
-    <net code="65" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="66" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="67" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="68" name="Net-(C6-Pad1)">
-      <node ref="SW1" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="69" name="SR_DS">
-      <node ref="U2" pin="3"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="70" name="SR_SHCP">
-      <node ref="U1" pin="5"/>
-      <node ref="U2" pin="13"/>
-      <node ref="U3" pin="13"/>
-    </net>
-    <net code="71" name="SR_STCP">
-      <node ref="U1" pin="6"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="72" name="SR_OE">
-      <node ref="U1" pin="7"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U3" pin="9"/>
-    </net>
-    <net code="73" name="Net-(U2-Pad18)">
-      <node ref="U3" pin="3"/>
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="74" name="M7">
+    <net code="38" name="SP">
+      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="2"/>
       <node ref="U6" pin="11"/>
-      <node ref="RN2" pin="3"/>
-      <node ref="J1" pin="9"/>
-    </net>
-    <net code="75" name="M2">
-      <node ref="J1" pin="4"/>
-      <node ref="RN1" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="11"/>
       <node ref="U5" pin="7"/>
     </net>
-    <net code="76" name="M3">
-      <node ref="RN1" pin="3"/>
-      <node ref="U5" pin="11"/>
-      <node ref="J1" pin="5"/>
+    <net code="39" name="S3">
+      <node ref="J3" pin="7"/>
+      <node ref="U5" pin="2"/>
+      <node ref="RN3" pin="2"/>
     </net>
-    <net code="77" name="M4">
+    <net code="40" name="M1">
+      <node ref="J1" pin="3"/>
       <node ref="RN1" pin="4"/>
-      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="42" name="M4">
+      <node ref="U5" pin="6"/>
       <node ref="J1" pin="6"/>
+      <node ref="RN1" pin="1"/>
     </net>
-    <net code="78" name="M5">
-      <node ref="J1" pin="7"/>
-      <node ref="U6" pin="5"/>
-      <node ref="RN2" pin="1"/>
+    <net code="43" name="M3">
+      <node ref="U5" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="RN1" pin="2"/>
     </net>
-    <net code="79" name="M6">
-      <node ref="U6" pin="7"/>
+    <net code="44" name="M2">
+      <node ref="J1" pin="4"/>
+      <node ref="RN1" pin="3"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="45" name="M6">
       <node ref="RN2" pin="2"/>
+      <node ref="U6" pin="8"/>
       <node ref="J1" pin="8"/>
     </net>
-    <net code="80" name="M8">
-      <node ref="RN2" pin="4"/>
-      <node ref="U6" pin="9"/>
-      <node ref="J1" pin="10"/>
+    <net code="46" name="S4">
+      <node ref="U5" pin="1"/>
+      <node ref="J3" pin="8"/>
+      <node ref="RN3" pin="1"/>
     </net>
-    <net code="83" name="Net-(U3-Pad1)">
-      <node ref="U3" pin="1"/>
+    <net code="47" name="S7">
+      <node ref="RN4" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="J3" pin="11"/>
     </net>
-    <net code="84" name="Net-(U3-Pad20)">
-      <node ref="U3" pin="20"/>
-    </net>
-    <net code="85" name="Net-(U3-Pad14)">
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="86" name="Net-(U3-Pad15)">
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="87" name="Net-(U2-Pad1)">
+    <net code="48" name="+3V3">
+      <node ref="RN4" pin="7"/>
+      <node ref="RN4" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="RN3" pin="5"/>
+      <node ref="RN3" pin="6"/>
+      <node ref="RN3" pin="7"/>
+      <node ref="RN3" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C13" pin="1"/>
       <node ref="U2" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="RN4" pin="5"/>
+      <node ref="RN4" pin="6"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="88" name="Net-(U2-Pad20)">
-      <node ref="U2" pin="20"/>
+    <net code="49" name="S5">
+      <node ref="U6" pin="13"/>
+      <node ref="RN4" pin="3"/>
+      <node ref="J3" pin="9"/>
     </net>
-    <net code="99" name="Net-(J3-Pad4)">
-      <node ref="J3" pin="4"/>
+    <net code="50" name="M5">
+      <node ref="J1" pin="7"/>
+      <node ref="U6" pin="10"/>
+      <node ref="RN2" pin="1"/>
     </net>
-    <net code="100" name="Net-(U3-Pad16)">
-      <node ref="U3" pin="16"/>
+    <net code="51" name="S8">
+      <node ref="J3" pin="12"/>
+      <node ref="U6" pin="1"/>
+      <node ref="RN4" pin="1"/>
     </net>
-    <net code="101" name="Net-(U3-Pad17)">
-      <node ref="U3" pin="17"/>
+    <net code="52" name="M8">
+      <node ref="J1" pin="10"/>
+      <node ref="U6" pin="6"/>
+      <node ref="RN2" pin="4"/>
     </net>
-    <net code="102" name="Net-(U3-Pad18)">
-      <node ref="U3" pin="18"/>
+    <net code="53" name="S2">
+      <node ref="U5" pin="14"/>
+      <node ref="J3" pin="6"/>
+      <node ref="RN3" pin="4"/>
     </net>
-    <net code="103" name="Net-(C2-Pad2)">
-      <node ref="RN2" pin="7"/>
-      <node ref="RN1" pin="5"/>
-      <node ref="RN1" pin="6"/>
+    <net code="54" name="S6">
+      <node ref="J3" pin="10"/>
+      <node ref="RN4" pin="4"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="55" name="M7">
+      <node ref="RN2" pin="3"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="56" name="S1">
+      <node ref="RN3" pin="3"/>
+      <node ref="U5" pin="13"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="57" name="Net-(C2-Pad2)">
       <node ref="RN1" pin="7"/>
       <node ref="RN2" pin="8"/>
       <node ref="RN1" pin="8"/>
+      <node ref="RN2" pin="7"/>
+      <node ref="RN1" pin="6"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="RN2" pin="5"/>
       <node ref="RN2" pin="6"/>
       <node ref="C2" pin="2"/>
-      <node ref="RN2" pin="5"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
     </net>
   </nets>
 </export>

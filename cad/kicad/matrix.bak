@@ -51,18 +51,8 @@ Comment4 ""
 $EndDescr
 Text Notes 1110 3870 0    60   ~ 0
 MCN_ = MATRIX COLUMN NEGATIVE\nMRP = MATRIX ROW POSITIVE\n\nPOSITIVE/NEGATIVE IS ARBITRARY AND \nDENOTES CURRENT FLOW
-Text HLabel 5660 1370 1    60   Input ~ 0
-MCN1
-Text HLabel 5910 1370 1    60   Input ~ 0
-MCN2
-Text HLabel 6160 1370 1    60   Input ~ 0
-MCN3
-Text HLabel 6410 1370 1    60   Input ~ 0
-MCN4
 Text HLabel 5050 1920 0    60   Input ~ 0
 MRP1
-Text HLabel 5060 1520 0    60   Input ~ 0
-SHEILD
 Text HLabel 5090 3150 0    60   Input ~ 0
 MRP2
 Text HLabel 5190 4350 0    60   Input ~ 0
@@ -75,8 +65,6 @@ Text HLabel 9560 3120 0    60   Input ~ 0
 MRP6
 Text HLabel 9660 4320 0    60   Input ~ 0
 MRP7
-Text HLabel 9700 5550 0    60   Input ~ 0
-MRP8
 Text HLabel 2500 5210 0    60   Input ~ 0
 SHEILD
 $Comp
@@ -123,32 +111,24 @@ F 3 "" H 7270 1720 50  0001 C CNN
 	1    7270 1720
 	1    0    0    -1  
 $EndComp
-Text HLabel 2630 4410 2    60   Input ~ 0
-MCN5
-Text HLabel 2630 4510 2    60   Input ~ 0
-MCN6
-Text HLabel 2630 4710 2    60   Input ~ 0
-MCN8
 Text HLabel 2630 4810 2    60   Input ~ 0
-MCN9
+MCN5
 Text HLabel 2630 4910 2    60   Input ~ 0
-MCN10
-Text HLabel 2630 5010 2    60   Input ~ 0
-MCN11
+MCN6
 Text HLabel 2630 5110 2    60   Input ~ 0
-MCN12
+MCN8
 Text HLabel 2630 5210 2    60   Input ~ 0
+MCN9
+Text HLabel 6410 1370 1    60   Input ~ 0
+MCN10
+Text HLabel 6160 1370 1    60   Input ~ 0
+MCN11
+Text HLabel 5910 1370 1    60   Input ~ 0
+MCN12
+Text HLabel 5660 1370 1    60   Input ~ 0
 MCN13
-Text HLabel 2630 4610 2    60   Input ~ 0
+Text HLabel 2630 5010 2    60   Input ~ 0
 MCN7
-Wire Wire Line
-	5060 1860 7050 1860
-Wire Wire Line
-	6010 1860 6010 1720
-Wire Wire Line
-	6530 1860 6530 1720
-Wire Wire Line
-	7050 1860 7050 1720
 Wire Wire Line
 	5660 1370 5660 1620
 Wire Wire Line
@@ -165,13 +145,6 @@ Wire Wire Line
 	6410 1370 7220 1370
 Wire Wire Line
 	7220 1370 7220 1620
-Connection ~ 6010 1860
-Connection ~ 6530 1860
-Wire Wire Line
-	5490 1860 5490 1720
-Wire Wire Line
-	5060 1860 5060 1520
-Connection ~ 5490 1860
 Wire Wire Line
 	5050 1920 7220 1920
 Wire Wire Line
@@ -213,16 +186,6 @@ Connection ~ 2560 4910
 Connection ~ 2560 5010
 Connection ~ 2560 5110
 Connection ~ 2560 5210
-Text HLabel 5700 2600 1    60   Input ~ 0
-MCN1
-Text HLabel 5950 2600 1    60   Input ~ 0
-MCN2
-Text HLabel 6200 2600 1    60   Input ~ 0
-MCN3
-Text HLabel 6450 2600 1    60   Input ~ 0
-MCN4
-Text HLabel 5100 2750 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L2
 U 1 1 5B0CF652
@@ -268,14 +231,6 @@ F 3 "" H 7310 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3090 7090 3090
-Wire Wire Line
-	6050 3090 6050 2950
-Wire Wire Line
-	6570 3090 6570 2950
-Wire Wire Line
-	7090 3090 7090 2950
-Wire Wire Line
 	5700 2600 5700 2850
 Wire Wire Line
 	5950 2600 5950 2850
@@ -291,13 +246,6 @@ Wire Wire Line
 	6450 2600 7260 2600
 Wire Wire Line
 	7260 2600 7260 2850
-Connection ~ 6050 3090
-Connection ~ 6570 3090
-Wire Wire Line
-	5530 3090 5530 2950
-Wire Wire Line
-	5100 3090 5100 2750
-Connection ~ 5530 3090
 Wire Wire Line
 	5090 3150 7260 3150
 Wire Wire Line
@@ -311,16 +259,6 @@ Connection ~ 6220 3150
 Wire Wire Line
 	7260 3150 7260 3050
 Connection ~ 6740 3150
-Text HLabel 5800 3800 1    60   Input ~ 0
-MCN1
-Text HLabel 6050 3800 1    60   Input ~ 0
-MCN2
-Text HLabel 6300 3800 1    60   Input ~ 0
-MCN3
-Text HLabel 6550 3800 1    60   Input ~ 0
-MCN4
-Text HLabel 5200 3950 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L3
 U 1 1 5B0CF859
@@ -366,14 +304,6 @@ F 3 "" H 7410 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 4290 7190 4290
-Wire Wire Line
-	6150 4290 6150 4150
-Wire Wire Line
-	6670 4290 6670 4150
-Wire Wire Line
-	7190 4290 7190 4150
-Wire Wire Line
 	5800 3800 5800 4050
 Wire Wire Line
 	6050 3800 6050 4050
@@ -389,13 +319,6 @@ Wire Wire Line
 	6550 3800 7360 3800
 Wire Wire Line
 	7360 3800 7360 4050
-Connection ~ 6150 4290
-Connection ~ 6670 4290
-Wire Wire Line
-	5630 4290 5630 4150
-Wire Wire Line
-	5200 4290 5200 3950
-Connection ~ 5630 4290
 Wire Wire Line
 	5190 4350 7360 4350
 Wire Wire Line
@@ -409,16 +332,6 @@ Connection ~ 6320 4350
 Wire Wire Line
 	7360 4350 7360 4250
 Connection ~ 6840 4350
-Text HLabel 5840 5030 1    60   Input ~ 0
-MCN1
-Text HLabel 6090 5030 1    60   Input ~ 0
-MCN2
-Text HLabel 6340 5030 1    60   Input ~ 0
-MCN3
-Text HLabel 6590 5030 1    60   Input ~ 0
-MCN4
-Text HLabel 5240 5180 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L4
 U 1 1 5B0CF890
@@ -464,14 +377,6 @@ F 3 "" H 7450 5380 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5240 5520 7230 5520
-Wire Wire Line
-	6190 5520 6190 5380
-Wire Wire Line
-	6710 5520 6710 5380
-Wire Wire Line
-	7230 5520 7230 5380
-Wire Wire Line
 	5840 5030 5840 5280
 Wire Wire Line
 	6090 5030 6090 5280
@@ -487,13 +392,6 @@ Wire Wire Line
 	6590 5030 7400 5030
 Wire Wire Line
 	7400 5030 7400 5280
-Connection ~ 6190 5520
-Connection ~ 6710 5520
-Wire Wire Line
-	5670 5520 5670 5380
-Wire Wire Line
-	5240 5520 5240 5180
-Connection ~ 5670 5520
 Wire Wire Line
 	5230 5580 7400 5580
 Wire Wire Line
@@ -507,16 +405,6 @@ Connection ~ 6360 5580
 Wire Wire Line
 	7400 5580 7400 5480
 Connection ~ 6880 5580
-Text HLabel 10130 1340 1    60   Input ~ 0
-MCN1
-Text HLabel 10380 1340 1    60   Input ~ 0
-MCN2
-Text HLabel 10630 1340 1    60   Input ~ 0
-MCN3
-Text HLabel 10880 1340 1    60   Input ~ 0
-MCN4
-Text HLabel 9530 1490 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L17
 U 1 1 5B0D02E9
@@ -562,14 +450,6 @@ F 3 "" H 11740 1690 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9530 1830 11520 1830
-Wire Wire Line
-	10480 1830 10480 1690
-Wire Wire Line
-	11000 1830 11000 1690
-Wire Wire Line
-	11520 1830 11520 1690
-Wire Wire Line
 	10130 1340 10130 1590
 Wire Wire Line
 	10380 1340 10380 1590
@@ -585,13 +465,6 @@ Wire Wire Line
 	10880 1340 11690 1340
 Wire Wire Line
 	11690 1340 11690 1590
-Connection ~ 10480 1830
-Connection ~ 11000 1830
-Wire Wire Line
-	9960 1830 9960 1690
-Wire Wire Line
-	9530 1830 9530 1490
-Connection ~ 9960 1830
 Wire Wire Line
 	9520 1890 11690 1890
 Wire Wire Line
@@ -605,16 +478,6 @@ Connection ~ 10650 1890
 Wire Wire Line
 	11690 1890 11690 1790
 Connection ~ 11170 1890
-Text HLabel 10170 2570 1    60   Input ~ 0
-MCN1
-Text HLabel 10420 2570 1    60   Input ~ 0
-MCN2
-Text HLabel 10670 2570 1    60   Input ~ 0
-MCN3
-Text HLabel 10920 2570 1    60   Input ~ 0
-MCN4
-Text HLabel 9570 2720 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L18
 U 1 1 5B0D0320
@@ -660,14 +523,6 @@ F 3 "" H 11780 2920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9570 3060 11560 3060
-Wire Wire Line
-	10520 3060 10520 2920
-Wire Wire Line
-	11040 3060 11040 2920
-Wire Wire Line
-	11560 3060 11560 2920
-Wire Wire Line
 	10170 2570 10170 2820
 Wire Wire Line
 	10420 2570 10420 2820
@@ -683,13 +538,6 @@ Wire Wire Line
 	10920 2570 11730 2570
 Wire Wire Line
 	11730 2570 11730 2820
-Connection ~ 10520 3060
-Connection ~ 11040 3060
-Wire Wire Line
-	10000 3060 10000 2920
-Wire Wire Line
-	9570 3060 9570 2720
-Connection ~ 10000 3060
 Wire Wire Line
 	9560 3120 11730 3120
 Wire Wire Line
@@ -703,16 +551,6 @@ Connection ~ 10690 3120
 Wire Wire Line
 	11730 3120 11730 3020
 Connection ~ 11210 3120
-Text HLabel 10270 3770 1    60   Input ~ 0
-MCN1
-Text HLabel 10520 3770 1    60   Input ~ 0
-MCN2
-Text HLabel 10770 3770 1    60   Input ~ 0
-MCN3
-Text HLabel 11020 3770 1    60   Input ~ 0
-MCN4
-Text HLabel 9670 3920 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L19
 U 1 1 5B0D0357
@@ -758,14 +596,6 @@ F 3 "" H 11880 4120 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9670 4260 11660 4260
-Wire Wire Line
-	10620 4260 10620 4120
-Wire Wire Line
-	11140 4260 11140 4120
-Wire Wire Line
-	11660 4260 11660 4120
-Wire Wire Line
 	10270 3770 10270 4020
 Wire Wire Line
 	10520 3770 10520 4020
@@ -781,13 +611,6 @@ Wire Wire Line
 	11020 3770 11830 3770
 Wire Wire Line
 	11830 3770 11830 4020
-Connection ~ 10620 4260
-Connection ~ 11140 4260
-Wire Wire Line
-	10100 4260 10100 4120
-Wire Wire Line
-	9670 4260 9670 3920
-Connection ~ 10100 4260
 Wire Wire Line
 	9660 4320 11830 4320
 Wire Wire Line
@@ -801,16 +624,6 @@ Connection ~ 10790 4320
 Wire Wire Line
 	11830 4320 11830 4220
 Connection ~ 11310 4320
-Text HLabel 10310 5000 1    60   Input ~ 0
-MCN1
-Text HLabel 10560 5000 1    60   Input ~ 0
-MCN2
-Text HLabel 10810 5000 1    60   Input ~ 0
-MCN3
-Text HLabel 11060 5000 1    60   Input ~ 0
-MCN4
-Text HLabel 9710 5150 0    60   Input ~ 0
-SHEILD
 $Comp
 L L_Cap_Core_Iron L20
 U 1 1 5B0D038E
@@ -856,14 +669,6 @@ F 3 "" H 11920 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9710 5490 11700 5490
-Wire Wire Line
-	10660 5490 10660 5350
-Wire Wire Line
-	11180 5490 11180 5350
-Wire Wire Line
-	11700 5490 11700 5350
-Wire Wire Line
 	10310 5000 10310 5250
 Wire Wire Line
 	10560 5000 10560 5250
@@ -879,13 +684,6 @@ Wire Wire Line
 	11060 5000 11870 5000
 Wire Wire Line
 	11870 5000 11870 5250
-Connection ~ 10660 5490
-Connection ~ 11180 5490
-Wire Wire Line
-	10140 5490 10140 5350
-Wire Wire Line
-	9710 5490 9710 5150
-Connection ~ 10140 5490
 Wire Wire Line
 	9700 5550 11870 5550
 Wire Wire Line
@@ -899,4 +697,70 @@ Connection ~ 10830 5550
 Wire Wire Line
 	11870 5550 11870 5450
 Connection ~ 11350 5550
+Text HLabel 9700 5550 0    60   Input ~ 0
+MRP8
+Text HLabel 2630 4410 2    60   Input ~ 0
+MCN1
+Text HLabel 2630 4510 2    60   Input ~ 0
+MCN2
+Text HLabel 2630 4610 2    60   Input ~ 0
+MCN3
+Text HLabel 2630 4710 2    60   Input ~ 0
+MCN4
+Text HLabel 6450 2600 1    60   Input ~ 0
+MCN10
+Text HLabel 6200 2600 1    60   Input ~ 0
+MCN11
+Text HLabel 5950 2600 1    60   Input ~ 0
+MCN12
+Text HLabel 5700 2600 1    60   Input ~ 0
+MCN13
+Text HLabel 6550 3800 1    60   Input ~ 0
+MCN10
+Text HLabel 6300 3800 1    60   Input ~ 0
+MCN11
+Text HLabel 6050 3800 1    60   Input ~ 0
+MCN12
+Text HLabel 5800 3800 1    60   Input ~ 0
+MCN13
+Text HLabel 6590 5030 1    60   Input ~ 0
+MCN10
+Text HLabel 6340 5030 1    60   Input ~ 0
+MCN11
+Text HLabel 6090 5030 1    60   Input ~ 0
+MCN12
+Text HLabel 5840 5030 1    60   Input ~ 0
+MCN13
+Text HLabel 10880 1340 1    60   Input ~ 0
+MCN10
+Text HLabel 10630 1340 1    60   Input ~ 0
+MCN11
+Text HLabel 10380 1340 1    60   Input ~ 0
+MCN12
+Text HLabel 10130 1340 1    60   Input ~ 0
+MCN13
+Text HLabel 10920 2570 1    60   Input ~ 0
+MCN10
+Text HLabel 10670 2570 1    60   Input ~ 0
+MCN11
+Text HLabel 10420 2570 1    60   Input ~ 0
+MCN12
+Text HLabel 10170 2570 1    60   Input ~ 0
+MCN13
+Text HLabel 11020 3770 1    60   Input ~ 0
+MCN10
+Text HLabel 10770 3770 1    60   Input ~ 0
+MCN11
+Text HLabel 10520 3770 1    60   Input ~ 0
+MCN12
+Text HLabel 10270 3770 1    60   Input ~ 0
+MCN13
+Text HLabel 11060 5000 1    60   Input ~ 0
+MCN10
+Text HLabel 10810 5000 1    60   Input ~ 0
+MCN11
+Text HLabel 10560 5000 1    60   Input ~ 0
+MCN12
+Text HLabel 10310 5000 1    60   Input ~ 0
+MCN13
 $EndSCHEMATC
