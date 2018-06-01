@@ -1,0 +1,10 @@
+31/05/2018:
+    electrical:
+        rework board outline to get cuts within spec and tabs to mechanically
+        stable, not to mention get the kicad 3D renderer to eat it
+        
+    mechanical:
+        need to start
+        
+    programming:
+        need to start
