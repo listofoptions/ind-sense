@@ -1,3 +1,21 @@
+02/06/2018
+    electrical:
+        rework board outline to get cuts within spec and tabs to mechanically
+        stable, not to mention get the kicad 3D renderer to eat it
+        
+        need to seperate the demo keyboard from the 
+        controller.
+        
+        need to get the spice simulation up and running.
+        
+        prove demo board will perform similarly to spice model (may require 
+        actually implementing hardware and testing it with a signal gen and 
+        o-scope)
+
+    mechanical:
+        begin design of beam spring mechanism for switch. 
+
+
 31/05/2018:
     electrical:
         rework board outline to get cuts within spec and tabs to mechanically

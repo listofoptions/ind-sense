@@ -1,4 +1,4 @@
-update=05/27/2018 18:34:20
+update=06/02/2018 21:33:56
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,6 +71,3 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=library/atsamda1e14b
-LibName34=library/ESD_Protection
-LibName35=library/l_cap_core_iron

@@ -1,0 +1,940 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:l_cap_core_iron
+EELAYER 25 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "ind-sense matrix"
+Date "2018-05-13"
+Rev "0.0.2"
+Comp "rainy day plans"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 12200 9000 0    60   ~ 0
+IND-SENSE KEYBOARD THEORY OF OPERATION:\n    THE CONTROLLER SELECTS ONE OF 16 COLUMNS TO GROUND VIA THE DECODER. \n    THE MATRIX IS PULSED BY PROVIDING A COLUMN SELECTION THEN ENABLING AND \n    DISABLING THE DECODER, SO THAT THE DECODER IS USED AS CURRENT SINK\n    SELECTOR. THE CURRENT THROUGH THE DECODER IS LIMITED BY A 4K RESISTOR TO\n    BE LESS THAN 18MA PER PIN. IF A SWITCH IS DEPRESSED THEN AN\n    INDUCTIVE CORE IS CLOSER TO THE COILS AND THE INDUCTANCE IS HIGHER,\n    THEREFORE THE VOLTAGE ACROSS THE INDUCTOR SHOULD INCREASE, AND BE SENSABLE\n    BY THE COMPARITOR WHICH IS GIVEN A SETPOINT BY THE DAC.
+Text Notes 3110 5810 0    60   ~ 0
+MCN_ = MATRIX COLUMN NEGATIVE\nMRP = MATRIX ROW POSITIVE\n\nPOSITIVE/NEGATIVE IS ARBITRARY AND \nDENOTES CURRENT FLOW
+Text HLabel 7050 3860 0    60   Input ~ 0
+MRP1
+Text HLabel 7090 5090 0    60   Input ~ 0
+MRP2
+Text HLabel 7190 6290 0    60   Input ~ 0
+MRP3
+Text HLabel 7230 7520 0    60   Input ~ 0
+MRP4
+Text HLabel 11520 3830 0    60   Input ~ 0
+MRP5
+Text HLabel 11560 5060 0    60   Input ~ 0
+MRP6
+Text HLabel 11660 6260 0    60   Input ~ 0
+MRP7
+Text HLabel 4500 7150 0    60   Input ~ 0
+SHEILD
+$Comp
+L L_Cap_Core_Iron L1
+U 1 1 5B1418A9
+P 7710 3660
+F 0 "L1" H 7760 3710 50  0000 L CNN
+F 1 "~" H 7760 3610 50  0000 L CNN
+F 2 "library:pad" H 7710 3660 50  0001 C CNN
+F 3 "" H 7710 3660 50  0001 C CNN
+	1    7710 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L5
+U 1 1 5B1418B0
+P 8230 3660
+F 0 "L5" H 8280 3710 50  0000 L CNN
+F 1 "~" H 8280 3610 50  0000 L CNN
+F 2 "library:pad" H 8230 3660 50  0001 C CNN
+F 3 "" H 8230 3660 50  0001 C CNN
+	1    8230 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L9
+U 1 1 5B1418B7
+P 8750 3660
+F 0 "L9" H 8800 3710 50  0000 L CNN
+F 1 "~" H 8800 3610 50  0000 L CNN
+F 2 "library:pad" H 8750 3660 50  0001 C CNN
+F 3 "" H 8750 3660 50  0001 C CNN
+	1    8750 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L13
+U 1 1 5B1418BE
+P 9270 3660
+F 0 "L13" H 9320 3710 50  0000 L CNN
+F 1 "~" H 9320 3610 50  0000 L CNN
+F 2 "library:pad" H 9270 3660 50  0001 C CNN
+F 3 "" H 9270 3660 50  0001 C CNN
+	1    9270 3660
+	1    0    0    -1  
+$EndComp
+Text HLabel 4630 6750 2    60   Input ~ 0
+MCN5
+Text HLabel 4630 6850 2    60   Input ~ 0
+MCN6
+Text HLabel 4630 7050 2    60   Input ~ 0
+MCN8
+Text HLabel 4630 7150 2    60   Input ~ 0
+MCN9
+Text HLabel 8410 3310 1    60   Input ~ 0
+MCN10
+Text HLabel 8160 3310 1    60   Input ~ 0
+MCN11
+Text HLabel 7910 3310 1    60   Input ~ 0
+MCN12
+Text HLabel 7660 3310 1    60   Input ~ 0
+MCN13
+Text HLabel 4630 6950 2    60   Input ~ 0
+MCN7
+Wire Wire Line
+	7660 3310 7660 3560
+Wire Wire Line
+	7910 3310 7910 3560
+Wire Wire Line
+	7910 3560 8180 3560
+Wire Wire Line
+	8160 3310 8160 3530
+Wire Wire Line
+	8160 3530 8700 3530
+Wire Wire Line
+	8700 3530 8700 3560
+Wire Wire Line
+	8410 3310 9220 3310
+Wire Wire Line
+	9220 3310 9220 3560
+Wire Wire Line
+	7050 3860 7660 3860
+Wire Wire Line
+	7660 3860 8180 3860
+Wire Wire Line
+	8180 3860 8700 3860
+Wire Wire Line
+	8700 3860 9220 3860
+Wire Wire Line
+	7660 3860 7660 3760
+Wire Wire Line
+	8180 3860 8180 3760
+Connection ~ 7660 3860
+Wire Wire Line
+	8700 3860 8700 3760
+Connection ~ 8180 3860
+Wire Wire Line
+	9220 3860 9220 3760
+Connection ~ 8700 3860
+Wire Wire Line
+	4560 6550 4630 6550
+Wire Wire Line
+	4560 6650 4630 6650
+Wire Wire Line
+	4560 6750 4630 6750
+Wire Wire Line
+	4560 6850 4630 6850
+Wire Wire Line
+	4560 6950 4630 6950
+Wire Wire Line
+	4560 7050 4630 7050
+Wire Wire Line
+	4500 7150 4560 7150
+Wire Wire Line
+	4560 7150 4630 7150
+Wire Wire Line
+	4630 6450 4560 6450
+Wire Wire Line
+	4630 6350 4560 6350
+Wire Wire Line
+	4560 6350 4560 6450
+Wire Wire Line
+	4560 6450 4560 6550
+Wire Wire Line
+	4560 6550 4560 6650
+Wire Wire Line
+	4560 6650 4560 6750
+Wire Wire Line
+	4560 6750 4560 6850
+Wire Wire Line
+	4560 6850 4560 6950
+Wire Wire Line
+	4560 6950 4560 7050
+Wire Wire Line
+	4560 7050 4560 7150
+Connection ~ 4560 6450
+Connection ~ 4560 6550
+Connection ~ 4560 6650
+Connection ~ 4560 6750
+Connection ~ 4560 6850
+Connection ~ 4560 6950
+Connection ~ 4560 7050
+Connection ~ 4560 7150
+$Comp
+L L_Cap_Core_Iron L2
+U 1 1 5B1418F0
+P 7750 4890
+F 0 "L2" H 7800 4940 50  0000 L CNN
+F 1 "~" H 7800 4840 50  0000 L CNN
+F 2 "library:pad" H 7750 4890 50  0001 C CNN
+F 3 "" H 7750 4890 50  0001 C CNN
+	1    7750 4890
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L6
+U 1 1 5B1418F7
+P 8270 4890
+F 0 "L6" H 8320 4940 50  0000 L CNN
+F 1 "~" H 8320 4840 50  0000 L CNN
+F 2 "library:pad" H 8270 4890 50  0001 C CNN
+F 3 "" H 8270 4890 50  0001 C CNN
+	1    8270 4890
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L10
+U 1 1 5B1418FE
+P 8790 4890
+F 0 "L10" H 8840 4940 50  0000 L CNN
+F 1 "~" H 8840 4840 50  0000 L CNN
+F 2 "library:pad" H 8790 4890 50  0001 C CNN
+F 3 "" H 8790 4890 50  0001 C CNN
+	1    8790 4890
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L14
+U 1 1 5B141905
+P 9310 4890
+F 0 "L14" H 9360 4940 50  0000 L CNN
+F 1 "~" H 9360 4840 50  0000 L CNN
+F 2 "library:pad" H 9310 4890 50  0001 C CNN
+F 3 "" H 9310 4890 50  0001 C CNN
+	1    9310 4890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4540 7700 4790
+Wire Wire Line
+	7950 4540 7950 4790
+Wire Wire Line
+	7950 4790 8220 4790
+Wire Wire Line
+	8200 4540 8200 4760
+Wire Wire Line
+	8200 4760 8740 4760
+Wire Wire Line
+	8740 4760 8740 4790
+Wire Wire Line
+	8450 4540 9260 4540
+Wire Wire Line
+	9260 4540 9260 4790
+Wire Wire Line
+	7090 5090 7700 5090
+Wire Wire Line
+	7700 5090 8220 5090
+Wire Wire Line
+	8220 5090 8740 5090
+Wire Wire Line
+	8740 5090 9260 5090
+Wire Wire Line
+	7700 5090 7700 4990
+Wire Wire Line
+	8220 5090 8220 4990
+Connection ~ 7700 5090
+Wire Wire Line
+	8740 5090 8740 4990
+Connection ~ 8220 5090
+Wire Wire Line
+	9260 5090 9260 4990
+Connection ~ 8740 5090
+$Comp
+L L_Cap_Core_Iron L3
+U 1 1 5B14191C
+P 7850 6090
+F 0 "L3" H 7900 6140 50  0000 L CNN
+F 1 "~" H 7900 6040 50  0000 L CNN
+F 2 "library:pad" H 7850 6090 50  0001 C CNN
+F 3 "" H 7850 6090 50  0001 C CNN
+	1    7850 6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L7
+U 1 1 5B141923
+P 8370 6090
+F 0 "L7" H 8420 6140 50  0000 L CNN
+F 1 "~" H 8420 6040 50  0000 L CNN
+F 2 "library:pad" H 8370 6090 50  0001 C CNN
+F 3 "" H 8370 6090 50  0001 C CNN
+	1    8370 6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L11
+U 1 1 5B14192A
+P 8890 6090
+F 0 "L11" H 8940 6140 50  0000 L CNN
+F 1 "~" H 8940 6040 50  0000 L CNN
+F 2 "library:pad" H 8890 6090 50  0001 C CNN
+F 3 "" H 8890 6090 50  0001 C CNN
+	1    8890 6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L15
+U 1 1 5B141931
+P 9410 6090
+F 0 "L15" H 9460 6140 50  0000 L CNN
+F 1 "~" H 9460 6040 50  0000 L CNN
+F 2 "library:pad" H 9410 6090 50  0001 C CNN
+F 3 "" H 9410 6090 50  0001 C CNN
+	1    9410 6090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5740 7800 5990
+Wire Wire Line
+	8050 5740 8050 5990
+Wire Wire Line
+	8050 5990 8320 5990
+Wire Wire Line
+	8300 5740 8300 5960
+Wire Wire Line
+	8300 5960 8840 5960
+Wire Wire Line
+	8840 5960 8840 5990
+Wire Wire Line
+	8550 5740 9360 5740
+Wire Wire Line
+	9360 5740 9360 5990
+Wire Wire Line
+	7190 6290 7800 6290
+Wire Wire Line
+	7800 6290 8320 6290
+Wire Wire Line
+	8320 6290 8840 6290
+Wire Wire Line
+	8840 6290 9360 6290
+Wire Wire Line
+	7800 6290 7800 6190
+Wire Wire Line
+	8320 6290 8320 6190
+Connection ~ 7800 6290
+Wire Wire Line
+	8840 6290 8840 6190
+Connection ~ 8320 6290
+Wire Wire Line
+	9360 6290 9360 6190
+Connection ~ 8840 6290
+$Comp
+L L_Cap_Core_Iron L4
+U 1 1 5B141948
+P 7890 7320
+F 0 "L4" H 7940 7370 50  0000 L CNN
+F 1 "~" H 7940 7270 50  0000 L CNN
+F 2 "library:pad" H 7890 7320 50  0001 C CNN
+F 3 "" H 7890 7320 50  0001 C CNN
+	1    7890 7320
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L8
+U 1 1 5B14194F
+P 8410 7320
+F 0 "L8" H 8460 7370 50  0000 L CNN
+F 1 "~" H 8460 7270 50  0000 L CNN
+F 2 "library:pad" H 8410 7320 50  0001 C CNN
+F 3 "" H 8410 7320 50  0001 C CNN
+	1    8410 7320
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L12
+U 1 1 5B141956
+P 8930 7320
+F 0 "L12" H 8980 7370 50  0000 L CNN
+F 1 "~" H 8980 7270 50  0000 L CNN
+F 2 "library:pad" H 8930 7320 50  0001 C CNN
+F 3 "" H 8930 7320 50  0001 C CNN
+	1    8930 7320
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L16
+U 1 1 5B14195D
+P 9450 7320
+F 0 "L16" H 9500 7370 50  0000 L CNN
+F 1 "~" H 9500 7270 50  0000 L CNN
+F 2 "library:pad" H 9450 7320 50  0001 C CNN
+F 3 "" H 9450 7320 50  0001 C CNN
+	1    9450 7320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7840 6970 7840 7220
+Wire Wire Line
+	8090 6970 8090 7220
+Wire Wire Line
+	8090 7220 8360 7220
+Wire Wire Line
+	8340 6970 8340 7190
+Wire Wire Line
+	8340 7190 8880 7190
+Wire Wire Line
+	8880 7190 8880 7220
+Wire Wire Line
+	8590 6970 9400 6970
+Wire Wire Line
+	9400 6970 9400 7220
+Wire Wire Line
+	7230 7520 7840 7520
+Wire Wire Line
+	7840 7520 8360 7520
+Wire Wire Line
+	8360 7520 8880 7520
+Wire Wire Line
+	8880 7520 9400 7520
+Wire Wire Line
+	7840 7520 7840 7420
+Wire Wire Line
+	8360 7520 8360 7420
+Connection ~ 7840 7520
+Wire Wire Line
+	8880 7520 8880 7420
+Connection ~ 8360 7520
+Wire Wire Line
+	9400 7520 9400 7420
+Connection ~ 8880 7520
+$Comp
+L L_Cap_Core_Iron L17
+U 1 1 5B141974
+P 12180 3630
+F 0 "L17" H 12230 3680 50  0000 L CNN
+F 1 "~" H 12230 3580 50  0000 L CNN
+F 2 "library:pad" H 12180 3630 50  0001 C CNN
+F 3 "" H 12180 3630 50  0001 C CNN
+	1    12180 3630
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L21
+U 1 1 5B14197B
+P 12700 3630
+F 0 "L21" H 12750 3680 50  0000 L CNN
+F 1 "~" H 12750 3580 50  0000 L CNN
+F 2 "library:pad" H 12700 3630 50  0001 C CNN
+F 3 "" H 12700 3630 50  0001 C CNN
+	1    12700 3630
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L25
+U 1 1 5B141982
+P 13220 3630
+F 0 "L25" H 13270 3680 50  0000 L CNN
+F 1 "~" H 13270 3580 50  0000 L CNN
+F 2 "library:pad" H 13220 3630 50  0001 C CNN
+F 3 "" H 13220 3630 50  0001 C CNN
+	1    13220 3630
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L29
+U 1 1 5B141989
+P 13740 3630
+F 0 "L29" H 13790 3680 50  0000 L CNN
+F 1 "~" H 13790 3580 50  0000 L CNN
+F 2 "library:pad" H 13740 3630 50  0001 C CNN
+F 3 "" H 13740 3630 50  0001 C CNN
+	1    13740 3630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12130 3280 12130 3530
+Wire Wire Line
+	12380 3280 12380 3530
+Wire Wire Line
+	12380 3530 12650 3530
+Wire Wire Line
+	12630 3280 12630 3500
+Wire Wire Line
+	12630 3500 13170 3500
+Wire Wire Line
+	13170 3500 13170 3530
+Wire Wire Line
+	12880 3280 13690 3280
+Wire Wire Line
+	13690 3280 13690 3530
+Wire Wire Line
+	11520 3830 12130 3830
+Wire Wire Line
+	12130 3830 12650 3830
+Wire Wire Line
+	12650 3830 13170 3830
+Wire Wire Line
+	13170 3830 13690 3830
+Wire Wire Line
+	12130 3830 12130 3730
+Wire Wire Line
+	12650 3830 12650 3730
+Connection ~ 12130 3830
+Wire Wire Line
+	13170 3830 13170 3730
+Connection ~ 12650 3830
+Wire Wire Line
+	13690 3830 13690 3730
+Connection ~ 13170 3830
+$Comp
+L L_Cap_Core_Iron L18
+U 1 1 5B1419A0
+P 12220 4860
+F 0 "L18" H 12270 4910 50  0000 L CNN
+F 1 "~" H 12270 4810 50  0000 L CNN
+F 2 "library:pad" H 12220 4860 50  0001 C CNN
+F 3 "" H 12220 4860 50  0001 C CNN
+	1    12220 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L22
+U 1 1 5B1419A7
+P 12740 4860
+F 0 "L22" H 12790 4910 50  0000 L CNN
+F 1 "~" H 12790 4810 50  0000 L CNN
+F 2 "library:pad" H 12740 4860 50  0001 C CNN
+F 3 "" H 12740 4860 50  0001 C CNN
+	1    12740 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L26
+U 1 1 5B1419AE
+P 13260 4860
+F 0 "L26" H 13310 4910 50  0000 L CNN
+F 1 "~" H 13310 4810 50  0000 L CNN
+F 2 "library:pad" H 13260 4860 50  0001 C CNN
+F 3 "" H 13260 4860 50  0001 C CNN
+	1    13260 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L30
+U 1 1 5B1419B5
+P 13780 4860
+F 0 "L30" H 13830 4910 50  0000 L CNN
+F 1 "~" H 13830 4810 50  0000 L CNN
+F 2 "library:pad" H 13780 4860 50  0001 C CNN
+F 3 "" H 13780 4860 50  0001 C CNN
+	1    13780 4860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12170 4510 12170 4760
+Wire Wire Line
+	12420 4510 12420 4760
+Wire Wire Line
+	12420 4760 12690 4760
+Wire Wire Line
+	12670 4510 12670 4730
+Wire Wire Line
+	12670 4730 13210 4730
+Wire Wire Line
+	13210 4730 13210 4760
+Wire Wire Line
+	12920 4510 13730 4510
+Wire Wire Line
+	13730 4510 13730 4760
+Wire Wire Line
+	11560 5060 12170 5060
+Wire Wire Line
+	12170 5060 12690 5060
+Wire Wire Line
+	12690 5060 13210 5060
+Wire Wire Line
+	13210 5060 13730 5060
+Wire Wire Line
+	12170 5060 12170 4960
+Wire Wire Line
+	12690 5060 12690 4960
+Connection ~ 12170 5060
+Wire Wire Line
+	13210 5060 13210 4960
+Connection ~ 12690 5060
+Wire Wire Line
+	13730 5060 13730 4960
+Connection ~ 13210 5060
+$Comp
+L L_Cap_Core_Iron L19
+U 1 1 5B1419CC
+P 12320 6060
+F 0 "L19" H 12370 6110 50  0000 L CNN
+F 1 "~" H 12370 6010 50  0000 L CNN
+F 2 "library:pad" H 12320 6060 50  0001 C CNN
+F 3 "" H 12320 6060 50  0001 C CNN
+	1    12320 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L23
+U 1 1 5B1419D3
+P 12840 6060
+F 0 "L23" H 12890 6110 50  0000 L CNN
+F 1 "~" H 12890 6010 50  0000 L CNN
+F 2 "library:pad" H 12840 6060 50  0001 C CNN
+F 3 "" H 12840 6060 50  0001 C CNN
+	1    12840 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L27
+U 1 1 5B1419DA
+P 13360 6060
+F 0 "L27" H 13410 6110 50  0000 L CNN
+F 1 "~" H 13410 6010 50  0000 L CNN
+F 2 "library:pad" H 13360 6060 50  0001 C CNN
+F 3 "" H 13360 6060 50  0001 C CNN
+	1    13360 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L31
+U 1 1 5B1419E1
+P 13880 6060
+F 0 "L31" H 13930 6110 50  0000 L CNN
+F 1 "~" H 13930 6010 50  0000 L CNN
+F 2 "library:pad" H 13880 6060 50  0001 C CNN
+F 3 "" H 13880 6060 50  0001 C CNN
+	1    13880 6060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12270 5710 12270 5960
+Wire Wire Line
+	12520 5710 12520 5960
+Wire Wire Line
+	12520 5960 12790 5960
+Wire Wire Line
+	12770 5710 12770 5930
+Wire Wire Line
+	12770 5930 13310 5930
+Wire Wire Line
+	13310 5930 13310 5960
+Wire Wire Line
+	13020 5710 13830 5710
+Wire Wire Line
+	13830 5710 13830 5960
+Wire Wire Line
+	11660 6260 12270 6260
+Wire Wire Line
+	12270 6260 12790 6260
+Wire Wire Line
+	12790 6260 13310 6260
+Wire Wire Line
+	13310 6260 13830 6260
+Wire Wire Line
+	12270 6260 12270 6160
+Wire Wire Line
+	12790 6260 12790 6160
+Connection ~ 12270 6260
+Wire Wire Line
+	13310 6260 13310 6160
+Connection ~ 12790 6260
+Wire Wire Line
+	13830 6260 13830 6160
+Connection ~ 13310 6260
+$Comp
+L L_Cap_Core_Iron L20
+U 1 1 5B1419F8
+P 12360 7290
+F 0 "L20" H 12410 7340 50  0000 L CNN
+F 1 "~" H 12410 7240 50  0000 L CNN
+F 2 "library:pad" H 12360 7290 50  0001 C CNN
+F 3 "" H 12360 7290 50  0001 C CNN
+	1    12360 7290
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L24
+U 1 1 5B1419FF
+P 12880 7290
+F 0 "L24" H 12930 7340 50  0000 L CNN
+F 1 "~" H 12930 7240 50  0000 L CNN
+F 2 "library:pad" H 12880 7290 50  0001 C CNN
+F 3 "" H 12880 7290 50  0001 C CNN
+	1    12880 7290
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L28
+U 1 1 5B141A06
+P 13400 7290
+F 0 "L28" H 13450 7340 50  0000 L CNN
+F 1 "~" H 13450 7240 50  0000 L CNN
+F 2 "library:pad" H 13400 7290 50  0001 C CNN
+F 3 "" H 13400 7290 50  0001 C CNN
+	1    13400 7290
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Cap_Core_Iron L32
+U 1 1 5B141A0D
+P 13920 7290
+F 0 "L32" H 13970 7340 50  0000 L CNN
+F 1 "~" H 13970 7240 50  0000 L CNN
+F 2 "library:pad" H 13920 7290 50  0001 C CNN
+F 3 "" H 13920 7290 50  0001 C CNN
+	1    13920 7290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12310 6940 12310 7190
+Wire Wire Line
+	12560 6940 12560 7190
+Wire Wire Line
+	12560 7190 12830 7190
+Wire Wire Line
+	12810 6940 12810 7160
+Wire Wire Line
+	12810 7160 13350 7160
+Wire Wire Line
+	13350 7160 13350 7190
+Wire Wire Line
+	13060 6940 13870 6940
+Wire Wire Line
+	13870 6940 13870 7190
+Wire Wire Line
+	11700 7490 12310 7490
+Wire Wire Line
+	12310 7490 12830 7490
+Wire Wire Line
+	12830 7490 13350 7490
+Wire Wire Line
+	13350 7490 13870 7490
+Wire Wire Line
+	12310 7490 12310 7390
+Wire Wire Line
+	12830 7490 12830 7390
+Connection ~ 12310 7490
+Wire Wire Line
+	13350 7490 13350 7390
+Connection ~ 12830 7490
+Wire Wire Line
+	13870 7490 13870 7390
+Connection ~ 13350 7490
+Text HLabel 11700 7490 0    60   Input ~ 0
+MRP8
+Text HLabel 4630 6350 2    60   Input ~ 0
+MCN1
+Text HLabel 4630 6450 2    60   Input ~ 0
+MCN2
+Text HLabel 4630 6550 2    60   Input ~ 0
+MCN3
+Text HLabel 4630 6650 2    60   Input ~ 0
+MCN4
+Text HLabel 8450 4540 1    60   Input ~ 0
+MCN10
+Text HLabel 8200 4540 1    60   Input ~ 0
+MCN11
+Text HLabel 7950 4540 1    60   Input ~ 0
+MCN12
+Text HLabel 7700 4540 1    60   Input ~ 0
+MCN13
+Text HLabel 8550 5740 1    60   Input ~ 0
+MCN10
+Text HLabel 8300 5740 1    60   Input ~ 0
+MCN11
+Text HLabel 8050 5740 1    60   Input ~ 0
+MCN12
+Text HLabel 7800 5740 1    60   Input ~ 0
+MCN13
+Text HLabel 8590 6970 1    60   Input ~ 0
+MCN10
+Text HLabel 8340 6970 1    60   Input ~ 0
+MCN11
+Text HLabel 8090 6970 1    60   Input ~ 0
+MCN12
+Text HLabel 7840 6970 1    60   Input ~ 0
+MCN13
+Text HLabel 12880 3280 1    60   Input ~ 0
+MCN10
+Text HLabel 12630 3280 1    60   Input ~ 0
+MCN11
+Text HLabel 12380 3280 1    60   Input ~ 0
+MCN12
+Text HLabel 12130 3280 1    60   Input ~ 0
+MCN13
+Text HLabel 12920 4510 1    60   Input ~ 0
+MCN10
+Text HLabel 12670 4510 1    60   Input ~ 0
+MCN11
+Text HLabel 12420 4510 1    60   Input ~ 0
+MCN12
+Text HLabel 12170 4510 1    60   Input ~ 0
+MCN13
+Text HLabel 13020 5710 1    60   Input ~ 0
+MCN10
+Text HLabel 12770 5710 1    60   Input ~ 0
+MCN11
+Text HLabel 12520 5710 1    60   Input ~ 0
+MCN12
+Text HLabel 12270 5710 1    60   Input ~ 0
+MCN13
+Text HLabel 13060 6940 1    60   Input ~ 0
+MCN10
+Text HLabel 12810 6940 1    60   Input ~ 0
+MCN11
+Text HLabel 12560 6940 1    60   Input ~ 0
+MCN12
+Text HLabel 12310 6940 1    60   Input ~ 0
+MCN13
+$Comp
+L Conn_01x27 J1
+U 1 1 5B14155A
+P 3980 2400
+F 0 "J1" H 3980 3800 50  0000 C CNN
+F 1 "Conn_01x27" H 3980 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x27_Pitch2.54mm" H 3980 2400 50  0001 C CNN
+F 3 "" H 3980 2400 50  0001 C CNN
+	1    3980 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3780 3600 3780 3700
+Wire Wire Line
+	3780 1100 3780 1150
+Wire Wire Line
+	3780 1150 3780 1200
+Text HLabel 3780 3200 0    60   Input ~ 0
+MCN10
+Text HLabel 3780 3300 0    60   Input ~ 0
+MCN11
+Text HLabel 3780 3400 0    60   Input ~ 0
+MCN12
+Text HLabel 3780 3500 0    60   Input ~ 0
+MCN13
+Wire Wire Line
+	3780 2100 3780 2200
+Wire Wire Line
+	3780 2200 3780 2300
+Wire Wire Line
+	3780 2300 3780 2400
+Wire Wire Line
+	3780 2400 3780 2500
+Wire Wire Line
+	3780 2500 3780 2600
+Wire Wire Line
+	3780 2600 3780 2700
+Wire Wire Line
+	3780 2700 3780 2800
+Wire Wire Line
+	3780 2800 3780 2900
+Wire Wire Line
+	3780 2900 3780 3000
+Wire Wire Line
+	3780 3000 3780 3100
+Connection ~ 3780 3000
+Connection ~ 3780 2900
+Connection ~ 3780 2800
+Connection ~ 3780 2700
+Connection ~ 3780 2600
+Connection ~ 3780 2200
+Connection ~ 3780 2500
+Connection ~ 3780 2400
+Connection ~ 3780 2300
+Text HLabel 3780 2000 0    60   Input ~ 0
+MRP1
+Text HLabel 3780 1900 0    60   Input ~ 0
+MRP2
+Text HLabel 3780 1800 0    60   Input ~ 0
+MRP3
+Text HLabel 3780 1700 0    60   Input ~ 0
+MRP4
+Text HLabel 3780 1600 0    60   Input ~ 0
+MRP5
+Text HLabel 3780 1500 0    60   Input ~ 0
+MRP6
+Text HLabel 3780 1400 0    60   Input ~ 0
+MRP7
+Text HLabel 3780 1300 0    60   Input ~ 0
+MRP8
+$Comp
+L GNDREF #PWR01
+U 1 1 5B146D2B
+P 3250 1150
+F 0 "#PWR01" H 3250 900 50  0001 C CNN
+F 1 "GNDREF" H 3250 1000 50  0000 C CNN
+F 2 "" H 3250 1150 50  0001 C CNN
+F 3 "" H 3250 1150 50  0001 C CNN
+	1    3250 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1150 3780 1150
+Connection ~ 3780 1150
+$Comp
+L GNDREF #PWR02
+U 1 1 5B146FEE
+P 3560 2600
+F 0 "#PWR02" H 3560 2350 50  0001 C CNN
+F 1 "GNDREF" H 3560 2450 50  0000 C CNN
+F 2 "" H 3560 2600 50  0001 C CNN
+F 3 "" H 3560 2600 50  0001 C CNN
+	1    3560 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3560 2600 3780 2600
+$Comp
+L GNDREF #PWR03
+U 1 1 5B147529
+P 3460 3700
+F 0 "#PWR03" H 3460 3450 50  0001 C CNN
+F 1 "GNDREF" H 3460 3550 50  0000 C CNN
+F 2 "" H 3460 3700 50  0001 C CNN
+F 3 "" H 3460 3700 50  0001 C CNN
+	1    3460 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3780 3700 3460 3700
+Connection ~ 3780 3700
+$EndSCHEMATC
