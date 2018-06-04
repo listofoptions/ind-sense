@@ -1,3 +1,15 @@
+04/06/2018
+    electrical:
+        prove demo board will perform similarly to spice model (may require 
+        actually implementing hardware and testing it with a signal gen and 
+        o-scope)
+        
+        ensure 15 mil edges around both boards (forgot to check)
+    
+    programming:
+        look into using the haskell edsl for real time
+        http://hackage.haskell.org/package/atom
+
 02/06/2018
     electrical:
         rework board outline to get cuts within spec and tabs to mechanically
