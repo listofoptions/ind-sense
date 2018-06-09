@@ -3,8 +3,11 @@
         prove demo board will perform similarly to spice model (may require 
         actually implementing hardware and testing it with a signal gen and 
         o-scope)
-        
-        ensure 15 mil edges around both boards (forgot to check)
+    
+    need to get the spice simulation up and running.
+    
+    mechanical:
+        begin design of beam spring mechanism for switch. 
     
     programming:
         look into using the haskell edsl for real time

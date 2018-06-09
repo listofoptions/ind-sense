@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMV761
+D Voltage Comparator, DIP-8/SOIC-8/SSOP-8
+K comp
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
+$ENDCMP
+#
+#End Doc Library

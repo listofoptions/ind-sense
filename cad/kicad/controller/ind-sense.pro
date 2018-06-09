@@ -1,4 +1,4 @@
-update=06/02/2018 21:33:56
+update=06/08/2018 16:48:03
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+LibName33=C:/Users/jamahoney/Dropbox/projects/ind-sense/cad/kicad/library/nx3l4051
+LibName34=C:/Users/jamahoney/Dropbox/projects/ind-sense/cad/kicad/library/lmv761
