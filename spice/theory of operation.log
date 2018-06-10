@@ -1,0 +1,18 @@
+Circuit: * C:\Users\jamahoney\Dropbox\projects\ind-sense\spice\theory of operation.asc
+
+
+Date: Sun Jun 10 17:53:24 2018
+Total elapsed time: 0.028 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 6
+fillins = 0
+solver = Normal
+
